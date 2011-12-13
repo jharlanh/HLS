@@ -103,12 +103,12 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 <table width="100%" border="0" cellpadding="0" cellspacing="3" id="menusup">
   <tbody>
     <tr>
-      <td width="100" height="21" align="center"><a href="index.html" title="Nosotros" class="menu2">About Us</a></td>
-      <td width="100" align="center" class="menu2"><a href="translations.html" title="Traducciones Oficiales" class="menu2"> Translations</a></td>
-      <td width="102" align="center"><a href="clientele.html" title="Clientela" class="menu2">Clientele</a></td>
-      <td width="100" align="center"><a href="price-and-fees.html" title="Tarifas" class="menu2">Prices</a></td>
+      <td width="100" height="21" align="center"><a href="index.html" title="About Us" class="menu2">About Us</a></td>
+      <td width="100" align="center" class="menu2"><a href="translations.html" title="Translations" class="menu2"> Translations</a></td>
+      <td width="102" align="center"><a href="clientele.html" title="Clientele" class="menu2">Clientele</a></td>
+      <td width="100" align="center"><a href="price-and-fees.html" title="Prices" class="menu2">Prices</a></td>
       <td width="100" align="center"><a href="interpretation.html" title="Interpretation" class="menu2">Interpretation</a></td>
-      <td width="100" align="center"><a href="contact.php" title="contacto" class="menu2">Contact Us</a></td>
+      <td width="100" align="center"><a href="contact.php" title="Contact Us" class="menu2">Contact Us</a></td>
     </tr>
   </tbody>
 </table>
