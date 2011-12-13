@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Casa Veerkamp</title>
+<link href="estilo-contacto.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+
+<body>
+<table width="790" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td colspan="2"><img src="images/tops/top.gif" width="800" height="73" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><span class="ligas"><a href="http://veerkamp.paxztore.com/app/ecommerce7.asp" target="_blank">Sitio Oficial </a>| <a href="../contactenos.html">Contactenos</a></span> </td>
+  </tr>
+  <tr>
+    <td width="643" valign="top"><form action="process-contacto.php" method="post" name="formacontacto" id="formacontacto" onSubmit="MM_validateForm('nombre','','R','apellidos','','R','direccion','','R','telefono','','RisNum','email','','RisEmail');return document.MM_returnValue" >
+          <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+            <tr>
+              <td width="32%">&nbsp;</td>
+              <td><p>* Campo Obligatorio</p></td>
+            </tr>
+
+            <tr>
+              <td bgcolor="#F2941C" class="campos"><p class="lateral">Nombre:</p></td>
+              <td bgcolor="#F2941C" class="campos"><input name="nombre" type="text" class="combos" id="nombre" size="50" maxlength="40"> 
+                * </td>
+            </tr>
+            <tr>
+              <td><p>Apellidos:</p></td>
+              <td>
+                <input name="apellidos" type="text" class="combos" id="apellidos" size="50" maxlength="40">
+              *</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F2941C" class="campos"><p class="lateral">Direcci&oacute;n:</p></td>
+              <td bgcolor="#F2941C" class="campos"><input name="direccion" type="text" class="combos" id="direccion" size="50" maxlength="50">
+*</td>
+            </tr>
+            <tr>
+              <td class="campos"><p>Tel&eacute;fono:</p></td>
+              <td class="campos"><input name="telefono" type="text" class="combos" id="telefono" size="50" maxlength="15">
+*</td>
+            </tr>
+            <tr>
+              <td bgcolor="#F2941C"><p class="lateral">E-mail:</p></td>
+              <td bgcolor="#F2941C"><input name="email" type="text" class="combos" id="email" size="50" maxlength="40">
+*</td>
+            </tr>
+            <tr>
+              <td valign="top" class="campos"><p>Comentarios:</p></td>
+              <td class="campos"><textarea name="comentarios" cols="50" rows="10" class="combos" id="comentarios"></textarea></td>
+            </tr>
+            <tr>
+              <td><p>C&oacute;digo de confirmaci&oacute;n <img src="captcha3.gif" width="139" height="31"></p></td>
+              <td valign="middle"><input name="codigo" type="text" class="combos" id="codigo" size="40" maxlength="6"></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><input name="Enviar" type="submit" id="Enviar" value="Enviar"> 
+			  <input name="envio" type="hidden" id="envio" value="1" /></td>
+            </tr>
+          </table>
+            </form></td>
+    <td width="157" align="center" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="pie"><span class="ligas"><a href="http://www.veerkamp.paxzorte.com"><img src="images/banners_fijos/banner_telefono_blanco.gif" width="500" height="33" border="0"/></a></span></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,305 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-12 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2528                
+POS_VISITOR 6815                
+POS_DAY 8091                
+POS_DOMAIN 3149                
+POS_LOGIN 3424                
+POS_ROBOT 3579                
+POS_WORMS 3849                
+POS_EMAILSENDER 3980                
+POS_EMAILRECEIVER 4123                
+POS_SESSION 8429                
+POS_SIDER 8596                
+POS_FILETYPES 4258                
+POS_OS 4406                
+POS_BROWSER 4501                
+POS_SCREENSIZE 4703                
+POS_UNKNOWNREFERER 4777                
+POS_UNKNOWNREFERERBROWSER 5224                
+POS_ORIGIN 5399                
+POS_SEREFERRALS 5533                
+POS_PAGEREFS 5698                
+POS_SEARCHWORDS 5892                
+POS_KEYWORDS 6097                
+POS_MISC 2192                
+POS_ERRORS 6207                
+POS_CLUSTER 3280                
+POS_SIDER_404 6291                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110101042737 759 163974 42642635548
+FirstTime 0
+LastTime 20101230163155
+LastUpdate 20110102040750 1 0 0 0 0
+TotalVisits 19                  
+TotalUnique 19                  
+MonthHostsKnown 18                  
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 8 10 54593
+1 0 0 0 12 15 43078
+2 0 0 0 2 2 0
+3 2 2 30836 6 6 0
+4 0 0 0 13 15 108758
+5 1 1 15418 7 10 11814
+6 1 1 15418 8 12 85390
+7 2 13 101890 11 11 0
+8 0 0 0 3 4 19771
+9 3 23 198085 4 4 0
+10 0 0 0 7 8 46938
+11 2 2 30836 9 10 3522
+12 0 0 0 2 2 0
+13 8 31 319530 12 14 54368
+14 1 1 15418 7 7 34761
+15 7 8 116250 10 11 100858
+16 1 1 15418 7 7 30810
+17 0 0 0 14 16 7876
+18 0 0 0 3 3 0
+19 1 1 15418 15 15 0
+20 9 9 127516 7 8 15418
+21 1 1 15418 6 7 19771
+22 0 0 0 7 7 0
+23 7 30 304112 8 8 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+ip 17 26 329745
+com 15 38 412038
+mx 9 44 431636
+net 5 16 148144
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 99 81964 20101229134130 0
+slurp 41 478672 20101231211858 0
+surveybot 3 46254 20101223103948 0
+netcraft 2 30836 20101229105648 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 7 24912 0 0
+html 46 710568 0 0
+jpg 46 474794 0 0
+js 4 86784 0 0
+gif 17 8753 0 0
+swf 4 15752 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 16
+winxp 74
+win2003 8
+winnt 1
+Unknown 16
+linux 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+msie8.0 30
+msie6.0 1
+firefox1.0 1
+mozilla 3
+msie7.0 38
+firefox3.5.8 2
+firefox3.6.6 2
+firefox3.6.12 10
+firefox4.7 2
+firefox3.5.3 8
+Unknown 13
+safari 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_AboutUsBot_Johnny5/2.0;__http://www.AboutUs.org/) 20101203205455
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20101225051445
+Mozilla/5.0_(compatible;_Search17Bot/1.1;_http://www.search17.com/bot.php) 20101230163155
+BlackBerry9000/4.6.0.166_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/121 20101223074608
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+BlackBerry9000/4.6.0.166_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/121 20101223074608
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 22 22
+From1 0 0
+From2 3 4
+From3 1 1
+From4 20 97
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 3
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://us.mc301.mail.yahoo.com/mc/welcome 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+horbach+language+service 1
+horbach+mexico+telefono 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+horbach 2
+mexico 1
+language 1
+telefono 1
+service 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 67 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/robots.txt 65 -
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 2 http://horbach-translation-service.com/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/tinybrowser.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 22
+69.58.178.56 8 8 127516 20101217201832
+38.127.197.106 7 8 116250 20101229155929
+customer-140.xertix.com 7 30 304112 20101223131308
+dsl-189-141-87-7-dyn.prod-infinitum.com.mx 7 30 304112 20101215235104
+ip-64-202-161-41.secureserver.net 2 2 30836 20101219034532
+dsl-189-247-122-242-dyn.prod-infinitum.com.mx 2 14 127524 20101224090550
+92.f5.344a.static.theplanet.com 1 1 15418 20101228064046
+msnbot-65-52-110-67.search.msn.com 1 1 15418 20101225051445
+ec2-204-236-182-219.us-west-1.compute.amazonaws.com 1 1 15418 20101228142251
+hosting.rentaserv.net 1 1 15418 20101203212810
+68-171-231-19.rdns.blackberry.net 0 1 335 
+68-171-231-21.rdns.blackberry.net 0 3 5477 
+68-171-231-17.rdns.blackberry.net 0 1 16102 
+190.142.150.119 1 9 70561 20101207090217
+tmbg.duckduckgo.com 1 1 15418 20101208194028
+68-171-231-16.rdns.blackberry.net 1 6 60358 20101223074448
+whistler.cynproweb.com 1 1 15418 20101201134846
+ec2-174-129-117-237.compute-1.amazonaws.com 1 1 0 20101203205455
+96.31.166.228 1 1 15418 20101230163155
+ec2-184-73-134-151.compute-1.amazonaws.com 1 1 15418 20101203112438
+ec2-184-72-8-31.us-west-1.compute.amazonaws.com 1 1 15418 20101217114226
+68-171-231-18.rdns.blackberry.net 1 2 19618 20101223074608
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20101201 1 1 15418 1
+20101203 3 3 30836 3
+20101207 1 9 70561 1
+20101208 1 1 15418 1
+20101215 7 30 304112 1
+20101217 9 9 142934 2
+20101219 2 2 30836 1
+20101223 9 43 406002 3
+20101224 2 14 127524 1
+20101225 1 1 15418 1
+20101228 2 2 30836 2
+20101229 7 8 116250 1
+20101230 1 1 15418 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+0s-30s 16
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 23 339196 17 12
+/costs.html 6 92796 1 4
+/clientele.html 5 76960 1 2
+/simultaneous-and-consecutive-interpreting.html 4 62476 0 0
+/certified-translations.html 4 61768 0 0
+/contact.html 4 77372 0 1
+END_SIDER

@@ -1,0 +1,497 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2545                
+POS_VISITOR 7223                
+POS_DAY 10296               
+POS_DOMAIN 3264                
+POS_LOGIN 3574                
+POS_ROBOT 3729                
+POS_WORMS 4102                
+POS_EMAILSENDER 4233                
+POS_EMAILRECEIVER 4376                
+POS_SESSION 10993               
+POS_SIDER 11200               
+POS_FILETYPES 4511                
+POS_OS 4746                
+POS_BROWSER 4864                
+POS_SCREENSIZE 5079                
+POS_UNKNOWNREFERER 5153                
+POS_UNKNOWNREFERERBROWSER 5648                
+POS_ORIGIN 6051                
+POS_SEREFERRALS 6188                
+POS_PAGEREFS 6353                
+POS_SEARCHWORDS 6559                
+POS_KEYWORDS 6738                
+POS_MISC 2209                
+POS_ERRORS 6828                
+POS_CLUSTER 3430                
+POS_SIDER_404 6914                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110501020313 6641 1627218 49813062800
+FirstTime 20110401054314
+LastTime 20110430131646
+LastUpdate 20110501040945 13 0 12 0 0
+TotalVisits 75                  
+TotalUnique 51                  
+MonthHostsKnown 43                  
+MonthHostsUnknown 9                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 51006 2 3 18070
+1 3 3 46254 13 15 41954
+2 9 12 111725 6 9 38909
+3 15 18 78944 4 6 5766
+4 5 65 420133 5 7 17086
+5 4 7 92036 9 10 20312
+6 0 0 0 8 8 17091
+7 101 101 76117 9 10 10046
+8 9 9 146890 5 5 20
+9 8 8 110764 21 25 158381
+10 6 6 105013 22 25 154072
+11 5 31 279848 14 16 82036
+12 3 3 51164 12 13 22059
+13 4 10 130439 16 16 37434
+14 16 43 422341 3 3 15
+15 38 230 969644 7 7 35
+16 49 261 1904824 4 5 24696
+17 37 199 1506714 12 18 64112
+18 18 64 967346 16 18 85178
+19 0 0 0 9 10 53535
+20 13 34 365081 7 9 23002
+21 7 19 220479 16 18 39991
+22 1 1 12768 9 14 71964
+23 6 6 96209 11 13 36390
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+mx 135 740 4855277
+it 95 95 475
+com 84 210 2354903
+ip 27 59 715454
+net 17 27 205532
+info 2 2 34098
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 117 257486 20110430220104 28
+slurp 75 627881 20110430162653 21
+unknown 4 20 20110426015910 4
+surveybot 3 51130 20110425064305 0
+msnbot 2 34064 20110416183907 0
+baiduspider 2 34132 20110422191412 0
+netcraft 1 17066 20110428103941 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 69 120614 0 0
+png 53 106853 0 0
+htm 16 17650 0 0
+swf 43 114920 0 0
+php 147 475968 0 0
+html 197 2348811 0 0
+js 54 468297 0 0
+jpg 363 3716583 0 0
+jpeg 33 665455 0 0
+gif 158 130588 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+amigaos 1
+winlong 2
+winxp 110
+winnt 752
+win98 107
+linux 9
+macosx 94
+Unknown 58
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie6.0 118
+msie8.0 714
+mozilla 30
+ibrowse 1
+firefox3.6.11 2
+firefox3.5.8 2
+msie7.0 28
+firefox4.0 95
+firefox3.6.16 1
+msie5.5 2
+firefox3.5.3 9
+Unknown 28
+safari 103
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Sleipnir 20110408235052
+MLBot_(www.metadatalabs.com/mlbot) 20110428213730
+Dragonfly_File_Reader 20110427230022
+Windows-Live-Social-Object-Extractor-Engine/1.0 20110419165221
+- 20110412004825
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110428073147
+West_Wind_Internet_Protocols_4.xx 20110425013804
+example/1.0 20110417150127
+Science_Traveller_International_1X/1.0 20110427181337
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+- 20110412004825
+Windows-Live-Social-Object-Extractor-Engine/1.0 20110419165221
+West_Wind_Internet_Protocols_4.xx 20110425013804
+Sleipnir 20110408235052
+example/1.0 20110417150127
+MLBot_(www.metadatalabs.com/mlbot) 20110428213730
+Science_Traveller_International_1X/1.0 20110427181337
+Dragonfly_File_Reader 20110427230022
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 263 263
+From1 0 0
+From2 3 4
+From3 2 2
+From4 92 864
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 2
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://vnthu9.blog.fc2.com 1 1
+http://g7.in/2015.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+horbach+language+service 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+language 2
+horbach 2
+service 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+302 79 375
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+dsl-187-152-88-239-dyn.prod-infinitum.com.mx 126 710 4518110 20110428154904
+host222-231-149-62.serverdedicati.aruba.it 95 95 475 20110407070333
+66-214-245-110.dhcp.gldl.ca.charter.com 16 64 920480 20110411183411
+ishizawa.net 12 12 60 20110406032331
+189.217.146.131 10 42 432330 20110419165320
+69.58.178.56 9 9 146890 20110416082548
+ec2-174-129-117-237.compute-1.amazonaws.com 9 9 0 20110429141433
+dsl-189-189-91-22-dyn.prod-infinitum.com.mx 9 30 337167 20110408210306
+net66-219-58-45.static-customer.corenap.com 6 6 85136 20110418031824
+net66-219-58-38.static-customer.corenap.com 5 5 72368 20110423075149
+msnbot-157-55-112-211.search.msn.com 1 4 48972 20110419130708
+122.228.159.218 1 1 17032 20110408235052
+msnbot-207-46-13-93.search.msn.com 2 2 30995 20110401054356
+msnbot-207-46-13-84.search.msn.com 2 2 33752 20110402232951
+msnbot-207-46-199-55.search.msn.com 2 2 34132 20110423091733
+msnbot-207-46-12-65.search.msn.com 1 4 49084 20110408034633
+msnbot-207-46-204-180.search.msn.com 2 2 17066 20110422040600
+msnbot-207-46-199-38.search.msn.com 2 2 37364 20110409102854
+msnbot-157-55-112-228.search.msn.com 1 4 48581 20110408020053
+s15428676.onlinehome-server.info 2 2 34098 20110428005500
+218.75.27.71 1 1 17066 20110425013804
+93-186-23-236.rdns.blackberry.net 1 10 139481 20110415211020
+ip-64-202-161-41.secureserver.net 2 2 29080 20110419021820
+msnbot-65-52-110-73.search.msn.com 1 1 15591 20110403235027
+msnbot-207-46-12-22.search.msn.com 1 4 48273 20110430131646
+218.75.27.72 1 1 17032 20110411213938
+93-186-23-238.rdns.blackberry.net 0 1 2847 
+net66-219-58-44.static-customer.corenap.com 2 2 25536 20110428213730
+218.75.20.78 1 1 17066 20110427230022
+msnbot-207-46-199-19.search.msn.com 1 4 49139 20110419143801
+msnbot-65-52-110-20.search.msn.com 1 1 17032 20110407121007
+msnbot-207-46-204-189.search.msn.com 2 2 37338 20110428073147
+msnbot-65-52-110-78.search.msn.com 1 1 0 20110426020002
+net66-219-58-42.static-customer.corenap.com 1 1 12768 20110418210112
+msnbot-207-46-13-87.search.msn.com 2 2 33194 20110402135625
+msnbot-207-46-204-190.search.msn.com 2 2 33585 20110417100904
+222.216.28.93 1 1 17032 20110417150127
+218.75.27.73 1 1 17066 20110427181337
+net66-219-58-39.static-customer.corenap.com 2 2 25536 20110421075317
+msnbot-207-46-195-226.search.msn.com 2 2 17032 20110408023748
+msnbot-65-52-110-23.search.msn.com 1 1 16420 20110421015305
+msnbot-207-46-13-96.search.msn.com 2 2 34064 20110405102847
+ool-182f9cee.dyn.optonline.net 2 2 34064 20110406095716
+70.59.126.197 2 2 33940 20110412004825
+msnbot-207-46-13-48.search.msn.com 2 2 33697 20110402204744
+msnbot-207-46-204-230.search.msn.com 2 2 36960 20110415175649
+emmad.bain.com 3 63 403067 20110418044809
+rrcs-71-41-201-36.sw.biz.rr.com 1 1 12768 20110413232033
+msnbot-207-46-12-211.search.msn.com 1 4 48273 20110429055544
+net66-219-58-43.static-customer.corenap.com 2 2 25536 20110416071308
+ec2-50-18-18-133.us-west-1.compute.amazonaws.com 1 1 17032 20110407023014
+msnbot-207-46-204-235.search.msn.com 2 2 34132 20110425123630
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20110401 22 107 1174353 2
+20110402 6 6 100643 3
+20110403 3 3 28359 3
+20110404 4 16 29800 3
+20110405 3 3 46832 2
+20110406 15 15 34124 3
+20110407 97 97 34539 3
+20110408 14 41 468896 5
+20110409 2 2 37364 1
+20110410 2 2 12768 2
+20110411 18 64 967312 3
+20110412 2 2 33940 1
+20110413 2 2 12768 2
+20110414 1 1 12768 1
+20110415 6 16 226120 4
+20110416 11 11 159658 3
+20110417 3 3 50617 2
+20110418 56 342 1859621 5
+20110419 63 320 1943329 6
+20110420 1 1 12768 1
+20110421 2 2 29188 2
+20110422 2 2 17066 1
+20110423 4 4 46900 3
+20110425 3 3 51198 2
+20110426 2 2 0 2
+20110427 2 2 34132 2
+20110428 11 55 644130 5
+20110429 2 5 48273 2
+20110430 1 4 48273 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 5
+30s-2mn 14
+0s-30s 47
+15mn-30mn 3
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 128
+/ 108 1366402 60 44
+/contact.php 24 457517 0 1
+/crear_imagen.php 13 17553 0 1
+/translations.html 12 155212 0 2
+/price-and-fees.html 11 149700 2 3
+/simultaneous-and-consecutive-interpreting.html 10 164560 2 4
+/clientele.html 10 162536 1 2
+/contact.html 7 25170 2 3
+/contact01.html 6 66968 0 0
+/certified-translations.html 6 62364 4 5
+/traducciones-oficiales.html 3 48486 1 2
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 5 0 0
+//scripts/setup.php 1 5 1 0
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 5 0 0
+//php-myadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 5 0 0
+//sqlweb/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 5 0 0
+//elists/admin/index.php 1 5 0 0
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.1/scripts/setup.php 1 5 0 0
+//php-my-admin/scripts/setup.php 2 10 0 0
+//phpadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.2.6/scripts/setup.php 1 5 0 0
+/process-contacto6.php 1 121 0 1
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 5 0 0
+/recommend7.htm 2 4414 0 1
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 5 0 0
+/contact1.html 5 15540 0 1
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 5 0 0
+//phpmanager/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 5 0 0
+//PMA2005/scripts/setup.php 1 5 0 0
+/recommend.htm 4 4412 0 0
+/process-contacto7.php 2 242 0 0
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 5 0 0
+/trabajos-destacados.html 1 18070 0 0
+//phpMyAdmin-2.2.3/scripts/setup.php 1 5 0 0
+//web/phpMyAdmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 5 0 0
+//phpmyadmin1/scripts/setup.php 1 5 0 0
+//admin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0/scripts/setup.php 1 5 0 0
+//webdb/scripts/setup.php 1 5 0 0
+//phpmy-admin/scripts/setup.php 1 5 0 0
+//mysql-admin/scripts/setup.php 1 5 0 1
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 5 0 0
+//p/m/a/scripts/setup.php 1 5 0 0
+//web/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 5 0 0
+//pma/scripts/setup.php 1 5 0 0
+//lists/admin/index.php 1 5 1 0
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 5 0 0
+//newsletter/admin/index.php 1 5 0 0
+//phpmyadmin/scripts/setup.php 2 10 0 0
+//news/admin/index.php 1 5 0 0
+//phpMyAdmin-2.8.2/scripts/setup.php 1 5 0 0
+//websql/scripts/setup.php 2 10 0 0
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 5 0 0
+//mailinglist/admin/index.php 1 5 0 1
+//phpmyadmin2/scripts/setup.php 1 5 0 0
+/contact4.html 3 10358 0 0
+//phpMyAdmin-2.5.7/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.7.0/scripts/setup.php 1 5 0 0
+//phplist/lsts/admin/index.php 1 5 0 0
+//webadmin/scripts/setup.php 1 5 0 0
+//phplist/admin/index.php 1 5 0 0
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.1/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.5/scripts/setup.php 1 5 0 0
+//xampp/phpmyadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 10 0 0
+//mysqladmin/scripts/setup.php 2 10 0 0
+//lista/admin/index.php 1 5 0 0
+//phpMyAdmin-2.5.4/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 5 0 0
+//list/index.php 1 5 0 0
+/contact3.html 2 5180 0 0
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 5 0 0
+//myadmin/scripts/setup.php 1 5 0 0
+//db/scripts/setup.php 1 5 0 0
+//admin/pma/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.0/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 5 0 0
+//pma2005/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 5 0 0
+/interpretacion-simultanea.html 3 49995 1 2
+//phplists/admin/index.php 1 5 0 0
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 5 0 0
+//dbadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.3/scripts/setup.php 2 10 0 0
+/gracias1-1.html 2 31670 0 1
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 5 0 0
+//phpList/admin/index.php 1 5 0 0
+//admin/phpmyadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.5.6/scripts/setup.php 1 5 0 0
+/contact6.html 6 15633 0 0
+//typo3/phpmyadmin/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.4/scripts/setup.php 1 5 0 0
+//phpMyAdmin-2.6.2/scripts/setup.php 1 5 0 0
+/gracias.html 1 480 0 0
+/recommend6.htm 5 4410 0 0
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 5 0 0
+//mysql/scripts/setup.php 1 5 0 0
+//phpMyAdmin/scripts/setup.php 1 5 0 0
+/recommend3.htm 1 2207 0 0
+/recommend4.htm 4 2207 0 0
+//admin/index.php 1 5 0 0
+/thanks1.html 1 487 0 0
+//mysqlmanager/scripts/setup.php 1 5 0 0
+END_SIDER

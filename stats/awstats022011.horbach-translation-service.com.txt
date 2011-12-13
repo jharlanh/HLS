@@ -1,0 +1,324 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-02 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2529                
+POS_VISITOR 6605                
+POS_DAY 8509                
+POS_DOMAIN 3189                
+POS_LOGIN 3464                
+POS_ROBOT 3619                
+POS_WORMS 3887                
+POS_EMAILSENDER 4018                
+POS_EMAILRECEIVER 4161                
+POS_SESSION 8986                
+POS_SIDER 9160                
+POS_FILETYPES 4296                
+POS_OS 4494                
+POS_BROWSER 4580                
+POS_SCREENSIZE 4785                
+POS_UNKNOWNREFERER 4859                
+POS_UNKNOWNREFERERBROWSER 5190                
+POS_ORIGIN 5429                
+POS_SEREFERRALS 5564                
+POS_PAGEREFS 5708                
+POS_SEARCHWORDS 5856                
+POS_KEYWORDS 6008                
+POS_MISC 2193                
+POS_ERRORS 6067                
+POS_CLUSTER 3320                
+POS_SIDER_404 6174                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110301024906 2280 505920 45289786854
+FirstTime 0
+LastTime 20110228090914
+LastUpdate 20110301040946 8 0 7 0 0
+TotalVisits 40                  
+TotalUnique 31                  
+MonthHostsKnown 29                  
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 14 15 34701
+1 5 5 30523 9 12 84870
+2 0 0 0 6 6 5
+3 1 1 18872 10 10 15
+4 2 4 41333 2 3 15238
+5 0 0 0 3 3 0
+6 3 7 82387 11 12 34564
+7 1 1 0 4 4 0
+8 3 3 15328 12 14 30737
+9 13 49 495160 14 14 187423
+10 4 17 198318 26 26 367872
+11 1 1 15366 8 8 92163
+12 2 2 30367 4 4 15328
+13 3 5 75186 8 9 34594
+14 8 8 125659 4 5 23024
+15 4 14 112355 93 94 96489
+16 3 8 101234 84 91 15733
+17 1 1 15328 4 6 42290
+18 0 0 0 9 9 45
+19 5 7 87177 22 24 100
+20 2 2 15382 18 20 39020
+21 5 22 226760 5 5 5
+22 7 31 90367 11 11 15
+23 5 5 79750 16 18 6149
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+com 46 104 856430
+mx 17 74 764425
+ip 12 12 190203
+net 3 3 45794
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 284 91699 20110228230850 8
+slurp 31 273607 20110228200844 4
+surveybot 3 45794 20110227170619 0
+robot 2 19480 20110225001546 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 16 53976 0 0
+php 2 149 0 0
+html 73 913465 0 0
+jpg 50 525539 0 0
+js 17 325440 0 0
+htm 2 4414 0 0
+Unknown 1 29 0 0
+gif 26 10212 0 0
+swf 6 23628 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 53
+winxp 113
+winnt 1
+Unknown 22
+linux 4
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+msie8.0 10
+msie6.0 8
+mozilla 13
+firefox1.0 1
+firefox3.5.8 2
+msie7.0 20
+firefox3.6.9 1
+firefox3.0.11 2
+Unknown 9
+firefox3.5.3 3
+safari 60
+firefox3.6.13 64
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110227191945
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110217145415
+CatchBot/2.0;__http://www.catchbot.com 20110203233210
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110217145415
+CatchBot/2.0;__http://www.catchbot.com 20110203233210
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 57 57
+From1 0 0
+From2 0 0
+From3 0 0
+From4 21 136
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 9 40
+206 45 689760
+404 49 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/gracias2.html 2 http://www.horbach-translation-service.com/contact.html
+/robots.txt 46 -
+/no-text4709990402860230257 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+dsl-187-152-88-239-dyn.prod-infinitum.com.mx 17 74 764425 20110224123821
+66-214-245-110.dhcp.gldl.ca.charter.com 12 53 317127 20110216224849
+69.58.178.57 8 8 125659 20110217145415
+ec2-174-129-117-237.compute-1.amazonaws.com 7 7 0 20110226083537
+208.77.221.210 4 4 64544 20110203233210
+msnbot-207-46-195-105.search.msn.com 2 2 15328 20110227191945
+ip-64-202-161-41.secureserver.net 2 2 30466 20110219010725
+msnbot-207-46-13-99.search.msn.com 2 2 15328 20110227081449
+27973hd45102.ikexpress.com 2 2 57 20110222010935
+msnbot-207-46-12-21.search.msn.com 1 3 41333 20110212043512
+msnbot-207-46-204-181.search.msn.com 1 1 0 20110221095847
+bzq-82-80-249-160.static.dcenter.bezeqint.net 1 1 15328 20110226171222
+92.f5.344a.static.theplanet.com 1 1 15233 20110217164701
+msnbot-207-46-12-106.search.msn.com 1 3 41333 20110214061027
+msnbot-207-46-13-142.search.msn.com 1 1 15485 20110204191114
+msnbot-207-46-12-156.search.msn.com 1 4 45019 20110219160716
+msnbot-207-46-195-207.search.msn.com 1 3 40982 20110223161946
+msnbot-207-46-13-101.search.msn.com 1 1 18872 20110215034012
+msnbot-207-46-204-215.search.msn.com 1 3 41054 20110217065641
+msnbot-207-46-204-188.search.msn.com 1 1 15134 20110216192317
+msnbot-207-46-204-180.search.msn.com 1 1 15382 20110208201824
+msnbot-207-46-199-38.search.msn.com 1 1 15233 20110214123907
+204-74-211-17.take2hosting.com 1 1 15233 20110203135854
+tmbg.duckduckgo.com 1 1 15328 20110228090914
+msnbot-65-52-110-32.search.msn.com 1 1 15206 20110210234833
+msnbot-207-46-13-140.search.msn.com 1 1 15366 20110209113406
+msnbot-65-52-108-12.search.msn.com 1 1 0 20110212065208
+ip-64-34-219-55.chunkhost.com 1 1 15233 20110216130712
+msnbot-207-46-12-208.search.msn.com 1 3 41230 20110214190041
+msnbot-207-46-12-121.search.msn.com 1 3 44720 20110219132703
+msnbot-207-46-204-157.search.msn.com 1 3 41214 20110214090753
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20110203 5 5 79777 2
+20110204 1 1 15485 1
+20110206 1 1 0 1
+20110208 1 1 15382 1
+20110209 1 1 15366 1
+20110210 2 2 15206 2
+20110212 2 4 41333 2
+20110213 1 1 0 1
+20110214 4 10 139010 4
+20110215 1 1 18872 1
+20110216 15 56 347494 4
+20110217 10 12 181946 3
+20110219 5 10 120205 4
+20110221 1 1 0 1
+20110222 2 2 57 1
+20110223 15 63 645206 4
+20110224 4 15 160201 2
+20110226 2 2 15328 2
+20110227 4 4 30656 2
+20110228 1 1 15328 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+5mn-15mn 1
+0s-30s 36
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 34 397198 24 17
+/contact.html 8 113232 2 3
+/clientele.html 7 105938 3 5
+/simultaneous-and-consecutive-interpreting.html 6 76910 2 3
+/price-and-fees.html 6 76830 2 3
+/certified-translations.html 6 91236 2 2
+/costs.html 4 46455 4 4
+/recommend7.htm 2 4414 0 0
+/alcobro 1 29 0 1
+/contact01.html 1 5179 0 1
+/bkm.php 1 28 1 0
+/process-contacto7.php 1 121 0 0
+/thanks1.html 1 487 0 1
+END_SIDER

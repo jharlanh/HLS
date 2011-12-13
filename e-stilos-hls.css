@@ -1,0 +1,407 @@
+.top-right-header {
+	background-image: url(header.png);
+	background-repeat:no-repeat;
+	height:60px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #b02b00;
+	padding-right: 12px;
+	
+}
+
+.main-body {
+	box-shadow:0 0 5px 1px gray;
+	border:1px solid gray;
+}
+
+body {
+	background-color: #f8f8ff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: blue;
+}
+
+.clients-gif {
+	margin-left: 28px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+
+th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+	text-align: left;
+	padding-left: 18px;
+}
+
+.negritas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: black;
+	<!--color:#003366;-->
+	font-style: normal;
+}
+
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #F00;
+	font-weight: bold;
+}
+
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+h6 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+
+A:link
+{
+	color: peru;
+	text-decoration: none;
+}
+
+A:visited
+{
+	color: #CC3333;
+	text-decoration: none;
+	font-style: italic;
+}
+A:hover
+{
+	color: #990000;
+	text-decoration: none;
+}
+
+
+A.menu{
+	text-decoration: none;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+A.menu:link
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+A.menu:visited
+{
+	color: #000000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+
+
+A.menu:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+
+A.menu2{
+	text-decoration: none;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+A.menu2:link
+{
+	color: #FFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+A.menu2:visited
+{
+	color: #FFF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+A.menu2:hover
+{
+	color: #999;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+A.mailto:link
+{
+	color: #cc3333;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+}
+
+A.mailto:visited
+{
+	color: #cc3333;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+A.mailto:hover
+{
+	color: #990000;
+	text-decoration: none;
+}
+
+
+.blanca {
+	color: #FFFFFF;
+}
+
+.rojo {
+
+	color: #FF0000;
+}
+
+A.menuinfe:link {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size:10px;
+	text-decoration: none;
+}
+
+A.menuinfe:visited {
+	color: #666;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+A.menuinfe:hover {
+	color: #999;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	list-style-type: none;
+	line-height: normal;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	background-image: url(images/bulllet.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+
+}
+
+
+
+.negritasAzules {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+}
+.azul {
+
+	color: #0000FF;
+}
+
+
+.pestanias{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+	padding-left: 18px;
+}
+.posicionado{
+	font-size: 10px;
+	color: #666;
+	font-style: normal;
+	text-align: center;
+}
+
+.textofoto {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: #b02b00;
+	padding-left: 15px;
+	padding-top: 25px;
+
+}
+
+.textofoto1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #b02b00;
+	padding-left: 15px;
+	padding-top: 15px;
+	text-align: justify;
+	padding-right: 15px;
+}
+.textlateral{
+
+}
+.negro {
+	color: #000;
+}
+#contacto {
+	font-size: 12px;
+}
+#sup {
+	background-image: url(images/superior.gif);
+	height: 40px;
+	width: 196px;
+	font-weight: bold;
+}
+.cliente {
+	font-size: 12px;
+	font-weight: bold;
+}
+#imagen {
+	height: 100px;
+	margin-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+}
+#bl {
+	color: #FFF;
+}
+title {
+	overflow: hidden;
+	position: relative;
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+}
+#cuerpo {
+	padding: 20px;
+	background-color: #f8f8ff;
+	margin-left: 20px;
+	box-shadow: 0 0 1px 1px gray;
+}
+#cuerpo .img {
+	padding: 15px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+	
+}
+#lista {
+	list-style-type: disc;
+	background-color: #f8f8ff;
+	padding-right: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-left: 3px;
+	background-image: url(images/bullet-1.gif);
+	font-size: 16px;
+	text-align: left;
+}
+
+.subti {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	font-style: normal;
+}
+
+.top-header{
+	background-color: #cd853f;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.main-top-header{
+	background-color: #cd853f;
+	font-size: 30px;
+}
+
+.form {
+	width:100px;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+.border {
+	border-bottom-style: solid;
+}

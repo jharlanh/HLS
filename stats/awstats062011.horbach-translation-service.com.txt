@@ -1,0 +1,989 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-06 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2546                
+POS_VISITOR 14692               
+POS_DAY 35224               
+POS_DOMAIN 3319                
+POS_LOGIN 3698                
+POS_ROBOT 3853                
+POS_WORMS 4124                
+POS_EMAILSENDER 4255                
+POS_EMAILRECEIVER 4398                
+POS_SESSION 36029               
+POS_SIDER 36237               
+POS_FILETYPES 4533                
+POS_OS 4759                
+POS_BROWSER 4886                
+POS_SCREENSIZE 5323                
+POS_UNKNOWNREFERER 5397                
+POS_UNKNOWNREFERERBROWSER 6060                
+POS_ORIGIN 6542                
+POS_SEREFERRALS 6686                
+POS_PAGEREFS 6917                
+POS_SEARCHWORDS 8609                
+POS_KEYWORDS 10596               
+POS_MISC 2208                
+POS_ERRORS 11674               
+POS_CLUSTER 3554                
+POS_SIDER_404 11781               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110701055842 13694 3486069 26251888955
+FirstTime 20110601000500
+LastTime 20110630183313
+LastUpdate 20110702041204 1 0 0 0 0
+TotalVisits 394                 
+TotalUnique 325                 
+MonthHostsKnown 278                 
+MonthHostsUnknown 90                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 189 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 8 141251 9 10 55814
+1 12 22 494415 9 10 39274
+2 7 11 259698 49 51 77537
+3 2 2 19773 3 3 16162
+4 17 45 727425 15 16 95723
+5 6 17 231661 9 10 0
+6 3 15 210734 4 6 22890
+7 4 15 179467 10 11 35539
+8 30 295 3828661 8 39 36904
+9 53 481 6443214 26 85 282982
+10 44 446 5758482 15 58 15591
+11 53 492 6388091 12 73 185052
+12 44 432 5785078 18 60 74639
+13 38 450 5397561 6 50 20463
+14 45 442 6089568 5 51 20836
+15 55 495 6873316 7 53 19766
+16 39 262 3150375 14 38 58073
+17 21 192 2454979 17 32 36405
+18 3 3 34860 2 2 5034
+19 6 24 320969 3 4 17106
+20 14 77 1067721 19 23 234913
+21 13 56 1019819 6 10 17430
+22 8 39 636121 3 3 17106
+23 9 11 231612 4 4 2207
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+net 203 2131 28661642
+com 175 969 13632758
+ip 94 677 9370606
+mx 39 383 4139730
+org 11 70 1003004
+us 6 72 487767
+edu 2 24 324754
+de 2 2 34798
+md 1 1 17650
+no 1 3 72142
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 62 639316 20110630053324 0
+slurp 31 359966 20110630092854 0
+surveybot 2 35300 20110625040240 0
+netcraft 1 17106 20110606191142 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 20 385138 0 0
+css 325 1595280 0 0
+png 307 970720 0 0
+html 514 8169083 0 0
+jpg 1778 34652392 0 0
+js 327 6655323 0 0
+jpeg 77 3189580 0 0
+gif 692 534978 0 0
+swf 292 1592357 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 585
+winlong 538
+winxp 1626
+win2003 43
+win2000 24
+winnt 1251
+Unknown 180
+linux 85
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 27
+msie6.0 170
+firefox5.0 36
+firefox3.5.17 12
+firefox3.5.6 12
+firefox4.0.1 341
+libwww 1
+opera 2
+firefox3.0.1 48
+firefox3.6.16 12
+firefox3.6.17 64
+msie5.5 8
+firefox3.5.3 7
+msie8.0 1360
+mozilla 97
+msie7.0 619
+firefox1.5.0.10 1
+firefox3.5.8 2
+firefox3.6.18 12
+firefox3.5.9 12
+firefox3.6.3 2
+firefox3.5.19 24
+msie9.0 467
+Unknown 82
+firefox3.0.19 12
+safari 905
+firefox3.6.8 12
+firefox3.6.13 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+CC-rget/5.818_libwww-perl/5.831 20110609093737
+- 20110630022356
+Windows-Live-Social-Object-Extractor-Engine/1.0 20110620160639
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110630163955
+BlackBerry9630/5.0.0.975_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20110628102328
+AdsBot-Google_(_http://www.google.com/adsbot.html) 20110630075025
+Mozilla/4.0_(compatible;) 20110629170758
+Java/1.6.0_24 20110617004355
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110619042331
+Java/1.6.0_17 20110606093337
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Windows-Live-Social-Object-Extractor-Engine/1.0 20110620160639
+- 20110630022356
+BlackBerry9630/5.0.0.975_Profile/MIDP-2.1_Configuration/CLDC-1.1_VendorID/105 20110628102328
+AdsBot-Google_(_http://www.google.com/adsbot.html) 20110630075025
+Java/1.6.0_24 20110617004355
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20110619042331
+Java/1.6.0_17 20110606093337
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 207 439
+From1 0 0
+From2 199 203
+From3 65 65
+From4 63 3625
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+earthlink 1 1
+webcrawler 3 3
+google 54 58
+search 25 25
+aol 8 8
+ask 107 107
+dogpile 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 33
+http://www.pronto.com/user/search.do 10 10
+http://www.search-results.com/web 9 9
+http://www.business.com/directory/media_and_entertainment/publishing/editorial_and_literary_services/translation_services/languages/spanish/ 7 7
+http://us.peeplo.com/search/ 3 3
+http://www.translator.com 3 3
+http://translater.com 2 2
+http://translator.com 2 2
+http://toolbar.inbox.com/search/results.aspx 2 2
+http://www.freedictionary.com/Translation.html 2 2
+http://www.traslate.com/g-common2.googleadd.php 2 2
+http://www.kdirectory.co.uk/results.asp 1 1
+http://bwp.download.cnet.com/search 1 1
+http://swagbucks.com 1 1
+http://www.text-link-ads.com 1 1
+http://us.peeplo.com/translate-english/ 1 1
+http://frenchspeakers.com/parking.php 1 1
+http://searchportal.information.com 1 1
+http://thesaurus.com/browse/spanish 1 1
+http://www.indeed.com/q-Interpreter-l-San-Diego,-CA-jobs.html 1 1
+http://int.search-results.com/web 1 1
+http://www.translation.com 1 1
+http://www.indeed.com/jobs 1 1
+http://www.englishtospanish.com/search.php 1 1
+http://www.elmaegles.com/spanish.htm 1 1
+http://www.jobrapido.com 1 1
+http://www.realminer.com/domain/horbach-translation-service.com 1 1
+http://www.pronto.com/mpm/shop/translate-english-into-spanish 1 1
+http://www.usdirectory.com/ypr.aspx 1 1
+http://answers.reference.com/Information/Terminology/how_can_i_translate_english_to_spanish 1 1
+http://www.80searchengines.com 1 1
+http://www.shopzilla.com/spanish+diccionario/search 1 1
+http://freedictionary.com/Translation.html 1 1
+http://dictionary.reference.com/browse/spanish 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 61
+english+to+spanish 5
+click 5
+translation 4
+translate+words+into+spanish 3
+www.horbach-translation-service.com+translations 3
+spanish+translation 2
+spanish+english+translation 2
+translate+to+spanish 2
+translate+english+to+spanish 2
+translation+sites 1
+spanish+trranslations 1
+cosmetics+translation+spanish 1
+translation+spanish+to+english 1
+pregnancy+leave+spanish 1
+english+spanish+translation 1
+spanish+for+services 1
+cj2ncrno_nzniskjigl2ua 1
+4cbe6f39 1
+translation+jobs+in+california 1
+translation+arabic+gledale+ca+91205 1
+svelta+spanish+translation 1
+www.horbach-translation-service.com 1
+flat+fee+translate+spanish+to+english+los+angeles 1
+english+translation+to+spanish 1
+2011-05-25t23+20+36z 1
+translation+service+university+california 1
+english+to+spanish+translation 1
+interpreter+services+in+san+diego+california 1
+updjt.hao2bk.bsyzxztxw 1
+horbach+language+services 1
+060cf66b-b310-4f79-bb3d-e698bbac2c77 1
+language+translator+in+los+angeles+ca 1
+spanish+to+ebglish 1
+muteded+translated+in+spanish 1
+english-spanish+translation-+cost 1
+etc.bpplpxdrvrugtf9abw 1
+interpreting+agency+california 1
+spanish+to+english 1
+espanish+diccionary 1
+translating+jobs+california 1
+diplomatic+language+services+offices+in+north+california 1
+spanish+translate+to+english 1
+spanish+eglish 1
+transladacion+espanol 1
+spanish+translation+to+english 1
+translate+from+spanish+into+english 1
+p9dow8ledpn6fhwywghinw 1
+www.traslate+spanish+english 1
+huntington+beach+high+scholl+translate 1
+spanish+translation+for+bofo 1
+4b92a4dd 1
+english+translation+in+san+jose 1
+translator+jobs+in+san+diego+ca 1
+translation+of+spanish+to+english 1
+language+translation+in+menifee+ca 1
+g7v6twxkfbww5_eh3jojug 1
+2011-04-20t19+42+15+0000 1
+215b7be8-5a27-462c-b0b1-f0e7cd3e3b6d 1
+http+//www.horbach-translation-service.com/ 1
+spanish+words+to+english 1
+4dccd882 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 83
+spanish 37
+translation 23
+english 22
+to 19
+translate 11
+in 8
+california 6
+click 5
+language 4
+into 4
+trranslations 1
+north 1
+pregnancy 1
+scholl 1
+svelta 1
+menifee 1
+transladacion 1
+20 1
+muteded 1
+espanish 1
+leave 1
+offices 1
+interpreter 1
+of 1
+fee 1
+beach 1
+www.traslate 1
+p9dow8ledpn6fhwywghinw 1
+from 1
+91205 1
+espanol 1
+agency 1
+services 4
+horbach 1
+ca 4
+15 1
+interpreting 1
+gledale 1
+bofo 1
+//www.horbach-translation-service.com/ 1
+jobs 3
+http 1
+translator 2
+cj2ncrno_nzniskjigl2ua 1
+4cbe6f39 1
+cost 1
+sites 1
+for 2
+www.horbach-translation-service.com 4
+service 1
+english-spanish 1
+translated 1
+translations 3
+flat 1
+updjt.hao2bk.bsyzxztxw 1
+060cf66b-b310-4f79-bb3d-e698bbac2c77 1
+san 3
+36z 1
+translation- 1
+etc.bpplpxdrvrugtf9abw 1
+2011-05-25t23 1
+diplomatic 1
+words 4
+42 1
+high 1
+0000 1
+angeles 2
+4b92a4dd 1
+university 1
+huntington 1
+ebglish 1
+jose 1
+2011-04-20t19 1
+g7v6twxkfbww5_eh3jojug 1
+diego 2
+cosmetics 1
+arabic 1
+los 2
+215b7be8-5a27-462c-b0b1-f0e7cd3e3b6d 1
+diccionary 1
+eglish 1
+4dccd882 1
+translating 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 3 5
+206 19 335753
+404 584 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 101
+/richmond-mo 1 -
+/robots.txt 90 -
+/rockford-restaurants 1 -
+/tickets-ottawa 1 -
+//scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 1 -
+/up-net 1 -
+/user-interface 1 -
+/lehenga-choli-bollywood 2 -
+/prestige-otg 1 -
+/hsm3-prom 1 -
+/twilight-latest-pictures 1 -
+/maggie-johnson 1 -
+//sqlweb/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+/irina-shayk-twitter 1 -
+/brighton-homes 1 -
+//php-my-admin/scripts/setup.php 2 -
+/jdm-eg9 2 -
+/simbol-dioda 1 -
+/hazara-news 1 -
+//phpadmin/scripts/setup.php 1 -
+/donsol-philippines 1 -
+/pelan-buih 1 -
+/traditional-tattoo-wiki 1 -
+/romance-novel 1 -
+/bkm.php 1 -
+/carls-furniture 1 -
+/jakne-2010 1 -
+//phpmanager/scripts/setup.php 1 -
+/logements-sociaux 1 -
+/chevy-tbi 1 -
+/altair-lighting 1 -
+/pictures-colbie-caillat 1 -
+//PMA2005/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 1 -
+/bess-levin-picture 1 -
+//admin/scripts/setup.php 1 -
+//phpmyadmin1/scripts/setup.php 1 -
+/images/bullet-1.gif 383 http://www.horbach-translation-service.com/
+/doug-williams 1 -
+//webdb/scripts/setup.php 1 -
+/shamrock-images 2 -
+/lettuce-wrap 1 -
+/say-anything-album 1 -
+//phpmy-admin/scripts/setup.php 1 -
+/pilule-anti 1 -
+//p/m/a/scripts/setup.php 1 -
+/oogie-boogie-man 1 -
+/true-friends-poems 1 -
+/berlin-express 1 -
+//web/scripts/setup.php 1 -
+/acer-logo-black 1 -
+/eelyn-kok 2 -
+/miata-drift 1 -
+/virginia-tech-campus 1 -
+//pma/scripts/setup.php 1 -
+/avaz-tower 1 -
+//sqlmanager/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 2 -
+/antique-hinges 1 -
+//websql/scripts/setup.php 2 -
+/resizer-photo 1 -
+//phpmyadmin2/scripts/setup.php 1 -
+/doreamon-wallpaper 1 -
+//webadmin/scripts/setup.php 1 -
+/donna-feldman-hot 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/safari-hunting 1 -
+//mysqladmin/scripts/setup.php 2 -
+/muieblackcat 1 -
+/photo-for-dummies 1 -
+/gotico-furniture 1 -
+/miaby-meninggal 1 -
+//myadmin/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 1 -
+/faxir-hariri 1 -
+/Charles-Q.-Murphy 1 -
+/crossdomain.xml 1 -
+//pma2005/scripts/setup.php 1 -
+/rana-daggubati 1 -
+//dbadmin/scripts/setup.php 1 -
+/schindlers-list 2 -
+/nicta-logo 1 -
+/emaciated-model 1 -
+/sacred-seasons 1 -
+/renaissance-wench-costume 1 -
+/mexican-casserole-recipes 1 -
+/phillip-garrido-address 1 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+/boli-steroid 2 -
+/brian-jossie 1 -
+/index 2 http://servicios-de-traduccion.com/index.html
+//phpMyAdmin/scripts/setup.php 2 -
+//mysql/scripts/setup.php 1 -
+/sectional-sleeper 1 -
+/kryptonite-man 1 -
+/ytv-reittiopas 1 -
+//mysqlmanager/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 368
+rate-limited-proxy-209-85-238-164.google.com 29 73 1366658 20110630162542
+dsl-187-152-83-146-dyn.prod-infinitum.com.mx 18 133 1522047 20110620161822
+pool-98-108-239-14.snloca.dsl-w.verizon.net 17 127 1946010 20110626164103
+rate-limited-proxy-209-85-238-200.google.com 16 38 715914 20110616112549
+rate-limited-proxy-209-85-238-232.google.com 15 37 695012 20110607174106
+dsl-187-152-89-245-dyn.prod-infinitum.com.mx 11 108 1031616 20110608113735
+ec2-174-129-117-237.compute-1.amazonaws.com 9 9 0 20110630183313
+tech.upsources.com 8 8 149692 20110625044001
+69.58.178.58 8 8 142981 20110619042337
+38.100.21.24 7 8 130664 20110624204359
+ip98-176-59-168.sd.sd.cox.net 1 12 162165 20110628120219
+ip174-65-162-113.sd.sd.cox.net 1 12 162589 20110609140504
+msnbot-207-46-13-92.search.msn.com 1 1 17650 20110608093138
+74.125.94.83 0 3 50121 
+cpe-98-151-188-213.socal.res.rr.com 1 12 149080 20110629081327
+66.161.59.254 1 12 162165 20110628154546
+209.85.224.89 0 2 6625 
+msnbot-207-46-12-159.search.msn.com 1 4 49344 20110609164850
+201.170.24.177.dsl.dyn.telnor.net 3 20 360668 20110607161208
+ip98-176-191-226.sd.sd.cox.net 3 20 360788 20110629152657
+cpe-76-174-140-172.socal.res.rr.com 1 12 162165 20110628093453
+99-44-57-151.lightspeed.irvnca.sbcglobal.net 1 11 156422 20110629122755
+iprism.cox-sd.net 2 24 162589 20110607132154
+cpe-66-74-129-135.dc.res.rr.com 1 12 162589 20110615081302
+cpe-76-88-101-26.san.res.rr.com 1 12 162589 20110610123818
+c-98-239-104-118.hsd1.ca.comcast.net 1 12 148952 20110615134257
+85.sub-75-208-192.myvzw.com 1 12 162165 20110628111557
+mobile-198-228-208-069.mycingular.net 1 11 142665 20110606210043
+74.125.154.80 0 1 27898 
+adsl-99-176-4-225.dsl.lsan03.sbcglobal.net 1 12 162165 20110627144023
+pool-71-103-92-237.lsanca.dsl-w.verizon.net 1 12 162589 20110608102030
+pool-173-58-157-171.lsanca.fios.verizon.net 1 12 162589 20110607152127
+96-31-232-227-static-ip.telepacific.net 1 12 162589 20110609110615
+mail.otismcallister.com 1 12 162589 20110613102704
+msnbot-207-46-12-207.search.msn.com 1 4 49557 20110617220718
+c-67-166-157-208.hsd1.ca.comcast.net 1 12 162165 20110627083657
+rrcs-24-43-186-25.west.biz.rr.com 1 12 162037 20110616141318
+ip98-160-144-121.lv.lv.cox.net 1 12 162165 20110627094148
+72.14.212.87 0 1 5743 
+209.85.224.91 1 8 69238 20110606145554
+c-76-127-97-69.hsd1.ca.comcast.net 1 12 162037 20110616135825
+ip98-176-115-77.sd.sd.cox.net 1 11 156294 20110616105026
+adsl-64-174-175-198.dsl.lsan03.pacbell.net 1 12 162589 20110606140018
+c-98-207-87-151.hsd1.ca.comcast.net 1 12 162589 20110607135109
+209-203-77-11.static.twtelecom.net 1 12 162165 20110628111220
+adsl-99-25-116-44.dsl.pltn13.sbcglobal.net 1 12 162589 20110607092203
+rrcs-173-196-4-178.west.biz.rr.com 1 12 162589 20110615100624
+112.65.20.135 1 1 17106 20110601000500
+74.125.52.83 1 2 17735 20110603055420
+cache-dtc-af06.proxy.aol.com 5 5 17430 20110613140022
+acbe3cc2.ipt.aol.com 1 12 162589 20110606144053
+adsl-69-234-185-82.dsl.irvnca.pacbell.net 1 12 149080 20110629142555
+pool-108-13-51-254.lsanca.fios.verizon.net 1 12 162165 20110628090953
+190.42.91.183 1 32 357977 20110624155257
+msnbot-207-46-12-113.search.msn.com 1 4 49234 20110620194755
+66-7-243-162.static-ip.telepacific.net 1 12 162589 20110603095325
+97-93-57-31.static.mtpk.ca.charter.com 1 12 148408 20110606105156
+99-44-61-57.lightspeed.irvnca.sbcglobal.net 1 12 162165 20110629085158
+99-44-61-66.lightspeed.irvnca.sbcglobal.net 1 12 162165 20110628102035
+74.125.94.88 0 2 23081 
+useregress.fnf.com 1 11 156422 20110628102326
+cache-dtc-ad04.proxy.aol.com 0 1 1323 
+mail.brownritner.com 1 12 149080 20110629162437
+99-60-179-82.lightspeed.irvnca.sbcglobal.net 1 12 162037 20110616102425
+adsl-67-127-247-216.dsl.irvnca.pacbell.net 1 12 148952 20110614110504
+adsl-75-43-46-160.dsl.skt2ca.sbcglobal.net 1 12 162165 20110627153241
+wsip-70-183-100-79.sd.sd.cox.net 3 19 291677 20110628081102
+adsl-69-230-77-75.dsl.irvnca.pacbell.net 1 12 162165 20110629105453
+adsl-75-26-23-151.dsl.scrm01.sbcglobal.net 1 12 162589 20110613115645
+64-172-142-125.sjgov.org 1 11 143209 20110609140055
+c-69-181-143-220.hsd1.ca.comcast.net 1 12 162589 20110606095526
+cpe-76-91-5-100.socal.res.rr.com 1 12 162165 20110627151533
+c-76-102-144-68.hsd1.ca.comcast.net 1 12 162165 20110630130921
+148.sub-174-253-236.myvzw.com 1 11 156846 20110615120727
+adsl-68-126-2-81.dsl.irvnca.pacbell.net 1 12 162589 20110610132216
+msnbot-65-52-110-55.search.msn.com 1 1 19773 20110626114427
+adsl-71-129-46-247.dsl.irvnca.pacbell.net 1 12 162165 20110630082755
+pool-98-108-249-182.snloca.dsl-w.verizon.net 1 12 162589 20110606174449
+adsl-67-115-253-233.dsl.lsan03.pacbell.net 1 12 162589 20110613095943
+66-215-151-135.dhcp.rvsd.ca.charter.com 1 12 162589 20110606170854
+cache-dtc-ad09.proxy.aol.com 0 1 5240 
+204-44-5-4.bankofthewest.com 1 12 162589 20110603093006
+209.85.224.80 1 1 17430 20110603095315
+64.134.231.126 5 48 782709 20110628220048
+74.125.126.81 0 3 74927 
+den-69-171-160-167.evdo.leapwireless.net 1 12 162589 20110608123426
+ip72-199-37-32.sd.sd.cox.net 1 12 162165 20110629165125
+dsl-201-124-68-191-dyn.prod-infinitum.com.mx 2 16 263030 20110607091936
+74.125.154.85 0 1 47816 
+cpe-66-27-152-202.socal.res.rr.com 1 12 162589 20110609095928
+cpe-76-170-160-136.socal.res.rr.com 1 12 162165 20110629173703
+174.134.176.52 1 12 162165 20110628094823
+216.104.15.138 0 1 21696 
+adsl-69-234-209-231.dsl.irvnca.pacbell.net 3 20 361212 20110613113756
+ip98-171-179-131.sb.sd.cox.net 1 12 162589 20110607094625
+115.sub-174-254-51.myvzw.com 1 11 156422 20110627144950
+adsl-76-208-176-21.dsl.lsan03.sbcglobal.net 1 12 162589 20110608121851
+mpwr-static-216.70.184.3.mpowercom.net 1 12 162589 20110608103457
+lv-67-239-192-97.dhcp.embarqhsd.net 1 12 162037 20110615161113
+sjdc-wtp-gb-maya3.sdi.trendnet.org 1 5 71756 20110617093741
+209.85.224.85 0 2 58277 
+cache-dtc-aa10.proxy.aol.com 0 1 2847 
+c-24-5-31-131.hsd1.ca.comcast.net 1 12 162037 20110617093550
+74.125.154.84 0 1 527 
+199.184.238.132 1 12 162589 20110613092900
+msnbot-65-52-110-34.search.msn.com 1 1 0 20110624173053
+netblock-75-79-40-100.dslextreme.com 1 12 148408 20110603175214
+adsl-64-171-134-70.dsl.frsn01.pacbell.net 1 12 162589 20110606152052
+74.125.154.87 0 2 4170 
+249-218-113-74.rev.1velocity.com 1 12 162589 20110608104512
+24-104-35-82-ip-static.hfc.comcastbusiness.net 1 11 156846 20110608125305
+host160-19.ah.org 1 11 156422 20110629165922
+adsl-99-35-231-97.dsl.pltn13.sbcglobal.net 1 12 162165 20110630084637
+adsl-75-48-8-181.dsl.scrm01.sbcglobal.net 1 6 79488 20110614095738
+colossus964.startdedicated.com 1 1 17650 20110617003127
+66-214-61-238.dhcp.hspr.ca.charter.com 1 12 162165 20110629153716
+65.203.134.190 1 13 162938 20110629084058
+video.unitedhelathcenters.org 1 12 162165 20110627135027
+pool-71-177-165-156.lsanca.fios.verizon.net 3 40 570109 20110613133747
+108-86-207-183.lightspeed.irvnca.sbcglobal.net 1 12 162589 20110613121644
+cache-dtc-ae08.proxy.aol.com 0 1 527 
+108-80-117-52.lightspeed.sndgca.sbcglobal.net 1 11 156846 20110614084807
+adsl-75-47-151-83.dsl.lsan03.sbcglobal.net 1 12 162165 20110627143656
+74.125.126.87 1 3 28777 20110601162729
+cache-dtc-af02.proxy.aol.com 0 1 5743 
+adsl-69-231-199-149.dsl.irvnca.pacbell.net 1 12 162589 20110613125230
+99-65-247-253.lightspeed.irvnca.sbcglobal.net 1 12 162165 20110629171102
+msnbot-207-46-12-237.search.msn.com 1 1 17650 20110614100942
+206.117.60.32 1 12 162165 20110628115038
+74.125.52.87 0 2 16471 
+cache-dtc-ac01.proxy.aol.com 0 1 47991 
+ont-static-208.57.233.206.mpowercom.net 1 12 162165 20110627153313
+205.154.0.81 1 12 162589 20110609112715
+ec2-72-44-36-218.compute-1.amazonaws.com 1 1 17650 20110608221522
+mail.collectmoore.com 1 12 162589 20110610122743
+64.245.68.34 1 12 162589 20110610133046
+12.230.37.210 1 11 156846 20110606132605
+209.85.224.83 0 3 15697 
+75-53-181-211.lightspeed.frfdca.sbcglobal.net 1 12 162165 20110629113219
+host-66-77-151-20.cybernetcom.com 1 13 163362 20110608111515
+76-14-11-72.sf-cable.astound.net 1 12 162037 20110617140005
+12.18.245.219 1 12 162165 20110627134522
+195.110.52.2 1 1 17650 20110630022356
+66-214-245-110.dhcp.gldl.ca.charter.com 3 28 411438 20110606214513
+149.137.8.217 1 12 162165 20110629104700
+pool-96-247-113-174.lsanca.fios.verizon.net 1 12 162165 20110627145635
+px75bca2-ex.statefarm.com 1 12 162037 20110616114507
+cache-dtc-ae02.proxy.aol.com 0 1 1385 
+adsl-71-141-121-119.dsl.snfc21.pacbell.net 1 12 162589 20110609122549
+ucsdmc-bc.ucsd.edu 1 12 162589 20110613134002
+74.125.126.83 0 1 5743 
+firewall.telekenex.com 1 12 162589 20110607141806
+21-253.sbcusd.k12.ca.us 3 36 162589 20110610131016
+174-127-47-2.static-ip.telepacific.net 4 21 392175 20110606153515
+cpe-76-95-230-157.socal.res.rr.com 1 12 162589 20110610133303
+c-98-207-70-137.hsd1.ca.comcast.net 1 10 156319 20110610121322
+64.244.128.226 1 12 162589 20110610112540
+74.125.158.86 1 1 17106 20110601164853
+c-98-248-244-205.hsd1.ca.comcast.net 1 12 162165 20110627151031
+ip-64-202-161-41.secureserver.net 2 2 29698 20110619015431
+70.134.80.195 1 12 162589 20110608124206
+74-206-7-136.static-ip.m.telepacific.net 1 12 162589 20110610123118
+pool-96-251-164-243.lsanca.fios.verizon.net 1 12 162165 20110627161025
+sjdc-wtp-g3-maya11.sdi.trendnet.org 3 9 150560 20110607153654
+209.85.224.81 0 1 305 
+host-static-93-116-234-101.moldtelecom.md 1 1 17650 20110617004355
+cpe-76-88-2-97.san.res.rr.com 1 12 162165 20110629172949
+dsl-189-191-50-173-dyn.prod-infinitum.com.mx 1 34 390617 20110614082321
+74.125.52.85 0 1 2847 
+209.85.224.86 0 2 832 
+209.85.224.90 0 2 97068 
+pool-108-13-197-63.lsanca.fios.verizon.net 1 12 162589 20110615081650
+206.117.62.126 1 12 162589 20110615084211
+149.142.201.254 1 12 162589 20110609105959
+postnews2.google.com 0 1 305 
+99.23.161.88 1 12 162589 20110606164133
+cpe-76-169-49-58.socal.res.rr.com 1 12 162589 20110609102846
+msnbot-207-46-195-226.search.msn.com 1 1 17430 20110609012540
+207.38.118.99 1 1 17430 20110608122322
+adsl-71-139-211-54.dsl.snfc21.pacbell.net 2 20 111221 20110608112506
+outbound1.hds.com 1 12 162589 20110603100516
+adsl-75-36-36-107.dsl.sndg02.sbcglobal.net 1 12 162589 20110608103748
+c-76-20-94-45.hsd1.ca.comcast.net 1 12 162165 20110628120157
+h-66-134-69-130.snvacaid.static.covad.net 1 12 162037 20110616144650
+adsl-69-236-162-235.dsl.pltn13.pacbell.net 1 12 162589 20110609121258
+74.125.66.82 1 1 17430 20110601161317
+adsl-64-168-239-70.dsl.sntc01.pacbell.net 1 12 149080 20110630131037
+adsl-108-68-152-156.dsl.skt2ca.sbcglobal.net 2 16 274628 20110614101004
+adsl-64-170-244-123.dsl.lsan03.pacbell.net 1 12 162165 20110629173421
+rrcs-76-79-137-91.west.biz.rr.com 1 12 162589 20110609103416
+74.125.94.87 1 4 71195 20110623091813
+249.suhd.lsan.ls3ca31ur.dsl.att.net 1 12 162589 20110613093107
+zulu419.startdedicated.com 1 1 17650 20110623080957
+216.38.216.220 4 8 122296 20110606093337
+173-127-14-76.pools.spcsdns.net 1 11 156846 20110615114757
+209.76.20.104 1 12 162589 20110603090429
+108-67-246-154.lightspeed.frsnca.sbcglobal.net 1 12 162589 20110614094357
+iad1-wtp-gd-maya3.sdi.trendnet.org 3 10 156303 20110613100138
+139.182.62.76 1 12 162589 20110608114437
+173-164-191-38-sfba.hfc.comcastbusiness.net 1 12 162165 20110629154327
+ec2-50-17-71-97.compute-1.amazonaws.com 1 1 17650 20110608230211
+170.218.231.21 2 16 259803 20110627153725
+nv-206-107-222-80.sta.embarqhsd.net 2 24 162037 20110616142348
+63-233-157-178.dia.static.qwest.net 1 12 162165 20110629170757
+216.104.15.134 0 1 5743 
+ip68-8-162-13.sd.sd.cox.net 1 12 162037 20110616100533
+security.lightspeedsystems.com 2 28 428308 20110606200131
+static.200.95.4.46.clients.your-server.de 2 2 34798 20110630021758
+c-71-202-67-66.hsd1.ca.comcast.net 1 12 162165 20110627141504
+customer-201-141-241-23.cablevision.net.mx 1 12 162589 20110606194705
+cpe-75-85-39-166.socal.res.rr.com 1 12 162589 20110607153254
+pool-96-229-170-245.lsanca.fios.verizon.net 3 40 569685 20110628091109
+74.125.94.80 0 3 12136 
+msnbot-207-46-195-239.search.msn.com 1 1 0 20110630052624
+pool-173-75-108-126.snfcca.btas.verizon.net 1 12 162589 20110606150851
+adsl-99-146-41-140.dsl.lsan03.sbcglobal.net 1 12 149080 20110629112122
+c-67-181-217-220.hsd1.ca.comcast.net 1 12 162589 20110608123733
+ppp-99-14-93-158.dsl.frs2ca.sbcglobal.net 1 12 162165 20110629110035
+74.125.154.82 0 1 5240 
+rrcs-24-43-153-110.west.biz.rr.com 1 12 162589 20110615091051
+adsl-71-129-34-239.dsl.irvnca.pacbell.net 1 12 162037 20110616144417
+ppp-71-140-102-203.dsl.irvnca.pacbell.net 1 12 162589 20110609131425
+adsl-68-122-151-22.dsl.irvnca.pacbell.net 2 24 162165 20110628103627
+54.sub-75-215-232.myvzw.com 1 12 162589 20110615111909
+159.83.196.1 1 12 162037 20110616121142
+69-12-206-193.dsl.dynamic.sonic.net 1 12 162589 20110609120407
+hlpusd-164-120.nat.hlpusd.k12.ca.us 1 12 162589 20110607133349
+207.62.246.41 1 12 162589 20110607145248
+99-179-24-129.lightspeed.irvnca.sbcglobal.net 1 12 162589 20110609121244
+ip-184-168-105-120.ip.secureserver.net 3 3 53985 20110606003857
+pool-96-247-26-12.lsanca.fios.verizon.net 1 12 149080 20110628104840
+75-54-23-64.lightspeed.snbuca.sbcglobal.net 1 12 162165 20110628110014
+74.125.94.90 0 2 95807 
+112.198.79.170 1 11 143209 20110613083138
+8.21.4.254 5 5 86046 20110628114641
+msnbot-207-46-199-52.search.msn.com 1 1 20463 20110603190442
+pool-96-251-122-68.lsanca.fios.verizon.net 1 12 162165 20110627150956
+pool-74-100-133-214.lsanca.fios.verizon.net 1 12 162037 20110617140318
+161.149.63.183 1 12 162165 20110628114641
+c-69-181-154-39.hsd1.ca.comcast.net 1 12 162165 20110627130349
+nat-dc5.es.bluecoat.com 2 2 34308 20110628102327
+vitaminc4.co.orange.ca.us 2 24 162589 20110615122320
+static-208-80-194-71.as13448.com 1 1 17650 20110611024421
+pool-173-55-115-235.lsanca.fios.verizon.net 1 12 162165 20110629164150
+ppp-71-129-155-2.dsl.irvnca.pacbell.net 1 12 162165 20110630091649
+wsip-70-169-246-6.oc.oc.cox.net 1 12 162589 20110610125342
+74.125.94.85 2 3 56004 20110616175354
+unspec170108.amerhonda.com 1 12 162589 20110613091846
+adsl-76-198-94-203.dsl.bkfd14.sbcglobal.net 1 12 162165 20110628101026
+msnbot-207-46-13-144.search.msn.com 1 1 0 20110620195540
+72.14.212.80 0 1 527 
+adsl-75-36-241-170.dsl.pltn13.sbcglobal.net 1 12 162165 20110629154453
+dsl-189-178-238-207-dyn.prod-infinitum.com.mx 4 36 263574 20110615101101
+63.81.26.254 1 12 162037 20110616091519
+gw1.oc.oc.cox.com 1 12 162589 20110609120017
+194ob.scansafe.net 1 12 162037 20110616085050
+dhcp-stdcntr179-20.sfsu.edu 1 12 162165 20110628102456
+cpe-76-87-15-122.socal.res.rr.com 2 16 263022 20110616125355
+cpe-76-94-71-93.socal.res.rr.com 1 11 156846 20110603085615
+209.85.224.87 0 3 59544 
+pool-74-100-37-195.lsanca.fios.verizon.net 1 12 148952 20110610135145
+dsl-189-180-191-147-dyn.prod-infinitum.com.mx 1 12 148408 20110606204833
+directconnectionmail.com 1 12 162037 20110616154516
+l3-128-170-224-13.l-3com.com 1 11 156846 20110606150129
+c-76-126-45-130.hsd1.ca.comcast.net 1 12 162165 20110628110857
+216.148.234.211 1 12 162589 20110608112510
+msnbot-207-46-204-190.search.msn.com 1 1 0 20110630163955
+bp05aztmpe-out.wellsfargo.com 1 12 162589 20110613135955
+c-24-23-178-4.hsd1.ca.comcast.net 1 12 162589 20110606130857
+cache-dtc-af10.proxy.aol.com 0 1 47816 
+67.137.238.164 1 1 16878 20110628114641
+wsip-98-173-39-114.sd.sd.cox.net 1 1 12696 20110603095308
+msnbot-207-46-13-96.search.msn.com 1 1 0 20110613201341
+cache-dtc-ac06.proxy.aol.com 0 1 21696 
+70-89-10-245-fresno.hfc.comcastbusiness.net 1 12 162165 20110629160338
+74.125.94.82 0 3 39826 
+adsl-69-230-187-73.dsl.irvnca.pacbell.net 2 13 161252 20110613164602
+msnbot-207-46-195-242.search.msn.com 1 1 0 20110621072245
+rrcs-173-198-121-3.west.biz.rr.com 1 12 162589 20110613120006
+c-67-187-139-0.hsd1.ca.comcast.net 1 12 162165 20110628111054
+cpe-76-91-125-1.socal.res.rr.com 1 12 162165 20110629113412
+c-24-5-11-192.hsd1.ca.comcast.net 2 36 458962 20110628175052
+msnbot-157-55-112-229.search.msn.com 1 4 49344 20110608205337
+74.125.126.82 0 1 21696 
+ip72-199-249-219.sd.sd.cox.net 1 12 162165 20110627090346
+12.236.16.2 1 12 162165 20110628103710
+74.7.212.49 1 12 162165 20110628103721
+75-23-228-27.lightspeed.lgngca.sbcglobal.net 1 12 162037 20110617135120
+99-119-64-43.lightspeed.sntcca.sbcglobal.net 1 12 162037 20110616123432
+74.125.94.91 0 1 10286 
+72.14.212.83 0 1 1323 
+pool-71-104-213-230.lsanca.dsl-w.verizon.net 2 24 162037 20110617084542
+69.106.188.65 1 11 156422 20110629152957
+74.125.154.81 0 1 49252 
+c-76-125-50-81.hsd1.ca.comcast.net 1 12 162589 20110608122306
+c-98-234-178-180.hsd1.ca.comcast.net 1 12 162589 20110609095024
+adsl-99-104-70-187.dsl.frs2ca.sbcglobal.net 1 12 162037 20110616115152
+wsip-70-166-86-55.sd.sd.cox.net 1 12 148952 20110616112717
+server-14.westsiderc.org 1 12 162589 20110606135513
+208-53-85-122.chico.ca.digitalpath.net 3 20 360668 20110606084712
+mpwr-static-208.57.186.134.mpowercom.net 1 12 162589 20110603103025
+adsl-75-50-176-213.dsl.lsan03.sbcglobal.net 2 15 162165 20110630090805
+216.148.217.126 1 12 162589 20110610121703
+lwdc.br05.gi9-48.host4.24187.americanis.net 1 1 17106 20110607092324
+pool-74-100-60-240.lsanca.fios.verizon.net 1 12 162589 20110609125711
+cpe-76-172-160-124.socal.res.rr.com 1 12 162165 20110627150323
+ip98-164-226-247.oc.oc.cox.net 1 12 162589 20110615111449
+msnbot-207-46-12-156.search.msn.com 1 4 50109 20110613192953
+adsl-69-236-81-189.dsl.pltn13.pacbell.net 1 11 156846 20110608123608
+64-60-198-162.static-ip.telepacific.net 1 12 148952 20110608131208
+207.38.118.93 1 1 17430 20110608122314
+mda0436d0.tmodns.net 1 12 162165 20110629165716
+66.249.85.3 2 23 319011 20110628091537
+cpe-76-175-132-159.socal.res.rr.com 1 12 148952 20110613142205
+adsl-99-32-222-134.dsl.bkfd14.sbcglobal.net 1 12 162165 20110629135502
+pool-71-107-139-43.lsanca.dsl-w.verizon.net 1 12 162589 20110603085653
+pool-173-58-48-237.lsanca.fios.verizon.net 1 12 162589 20110607144637
+adsl-99-183-241-22.dsl.pltn13.sbcglobal.net 1 12 148952 20110610155359
+dsl-189-146-66-164-dyn.prod-infinitum.com.mx 1 32 357849 20110613154249
+74.125.75.4 3 11 169160 20110624062621
+msnbot-65-52-110-23.search.msn.com 1 1 19773 20110610035414
+cache-dtc-ac09.proxy.aol.com 0 1 305 
+12.106.76.5 1 12 162037 20110616112848
+eg3mail.com 1 1 17650 20110609093737
+rrcs-64-183-60-82.west.biz.rr.com 1 11 156846 20110607090055
+adsl-75-15-184-225.dsl.bkfd14.sbcglobal.net 1 12 162589 20110609123527
+207.104.184.254 3 20 361212 20110613142312
+208.91.113.30 1 1 17650 20110615163525
+209.85.224.88 0 2 13512 
+216.104.15.130 1 1 17650 20110628175221
+adsl-75-31-215-215.dsl.irvnca.sbcglobal.net 1 12 148952 20110614100902
+76-14-92-64.sf-cable.astound.net 1 10 113869 20110629145926
+38.103.61.130 2 24 162589 20110610112427
+cache-dtc-ac13.proxy.aol.com 0 1 10286 
+99-6-250-15.lightspeed.artnca.sbcglobal.net 1 12 162589 20110608103642
+99.23.57.54 1 12 162589 20110615085333
+205.154.150.224 1 12 162589 20110607082337
+cpe-75-82-126-181.socal.res.rr.com 1 12 162589 20110613112833
+wsip-70-183-83-3.sd.sd.cox.net 1 12 162165 20110629164040
+pool-108-38-175-96.lsanca.fios.verizon.net 1 12 149080 20110628121954
+155.13.48.128 1 12 162589 20110613095717
+99-100-160-36.lightspeed.frokca.sbcglobal.net 1 12 162589 20110615121009
+cpe-76-90-144-128.socal.res.rr.com 1 12 162589 20110613090744
+adsl-99-31-238-230.dsl.pltn13.sbcglobal.net 1 12 162165 20110628104025
+adsl-99-68-215-193.dsl.lsan03.sbcglobal.net 2 24 162589 20110613091652
+pool-173-58-253-176.lsanca.fios.verizon.net 1 12 148408 20110607094600
+msnbot-207-46-13-139.search.msn.com 1 1 0 20110608075846
+msnbot-65-52-110-78.search.msn.com 1 1 0 20110603210011
+cpe-66-27-137-193.socal.res.rr.com 2 15 180954 20110629111855
+209.19.43.3 1 12 162589 20110603090044
+cpe-66-27-95-97.san.res.rr.com 1 11 156422 20110629114202
+108-121-48-35.pools.spcsdns.net 1 12 162589 20110615112421
+cpe-76-90-122-205.socal.res.rr.com 1 12 162589 20110614112306
+64.233.172.1 4 10 116531 20110608113149
+99-66-144-157.lightspeed.sntcca.sbcglobal.net 1 12 162589 20110610120656
+cpe-76-93-76-222.socal.res.rr.com 2 24 162037 20110617135503
+ip72-220-174-252.sd.sd.cox.net 1 12 162165 20110627142928
+pool-98-112-50-68.lsanca.fios.verizon.net 6 58 940170 20110615141350
+adsl-75-62-159-82.dsl.lsan03.sbcglobal.net 1 12 162589 20110613160254
+cpe-76-167-249-61.socal.res.rr.com 1 11 156422 20110628112054
+msnbot-65-52-110-33.search.msn.com 1 1 0 20110602112649
+cpe-76-175-190-208.socal.res.rr.com 2 16 263150 20110627145920
+ont-static-208.57.100.204.mpowercom.net 1 12 162589 20110615102446
+mail.gpwk.com 1 12 162589 20110615105517
+pt20-con-01.ptn.no 1 3 72142 20110609010230
+remote.ccwlawyers.com 1 12 162037 20110616104708
+007.228-93-216-fuji-dsl.dhcp.surewest.net 1 12 162589 20110603132646
+74.125.94.81 0 1 1323 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110601 17 92 922351 11
+20110602 5 27 505226 5
+20110603 18 152 2138639 18
+20110604 5 5 69072 3
+20110605 2 2 34212 1
+20110606 38 307 4464075 25
+20110607 28 241 3096998 20
+20110608 28 238 3117507 26
+20110609 23 214 2936059 22
+20110610 25 255 3015801 20
+20110611 5 9 242110 3
+20110612 2 2 34860 1
+20110613 43 369 4869917 33
+20110614 13 130 1739760 11
+20110615 36 348 4219285 23
+20110616 27 274 3638097 24
+20110617 14 117 1280897 12
+20110618 1 10 157805 1
+20110619 12 12 206435 4
+20110620 18 90 1157308 7
+20110621 5 9 223356 3
+20110622 2 2 33756 1
+20110623 3 14 149392 3
+20110624 12 55 654599 6
+20110625 8 26 426012 3
+20110626 20 130 1999539 4
+20110627 25 261 3615223 23
+20110628 45 460 6243238 34
+20110629 37 392 5317613 33
+20110630 17 89 1235709 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 7
+0s-30s 360
+15mn-30mn 3
+30s-2mn 15
+2mn-5mn 4
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/translations.html 331 5373024 279 276
+/ 127 1962324 95 79
+/contact.php 20 385138 4 11
+/price-and-fees.html 20 295686 3 8
+/clientele.html 15 286482 5 10
+/simultaneous-and-consecutive-interpreting.html 9 148473 0 3
+/english-spanish-translation.html 5 51930 1 0
+/interpretacion-simultanea.html 4 33330 4 4
+/contact.html 2 0 2 2
+/traduccion-ingles.html 1 17834 1 1
+END_SIDER

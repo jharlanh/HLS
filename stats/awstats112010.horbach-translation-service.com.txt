@@ -1,0 +1,283 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-11 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2540                
+POS_VISITOR 6232                
+POS_DAY 6735                
+POS_DOMAIN 3186                
+POS_LOGIN 3462                
+POS_ROBOT 3617                
+POS_WORMS 3882                
+POS_EMAILSENDER 4013                
+POS_EMAILRECEIVER 4156                
+POS_SESSION 6947                
+POS_SIDER 7119                
+POS_FILETYPES 4291                
+POS_OS 4458                
+POS_BROWSER 4547                
+POS_SCREENSIZE 4696                
+POS_UNKNOWNREFERER 4770                
+POS_UNKNOWNREFERERBROWSER 4973                
+POS_ORIGIN 5072                
+POS_SEREFERRALS 5207                
+POS_PAGEREFS 5351                
+POS_SEARCHWORDS 5559                
+POS_KEYWORDS 5711                
+POS_MISC 2204                
+POS_ERRORS 5770                
+POS_CLUSTER 3318                
+POS_SIDER_404 5854                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101201031015 415 94774 52573875441
+FirstTime 20101110102827
+LastTime 20101126024449
+LastUpdate 20101201042143 7 0 6 0 0
+TotalVisits 12                  
+TotalUnique 8                   
+MonthHostsKnown 6                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 4 18340
+1 0 0 0 3 3 15418
+2 1 1 15418 3 3 15418
+3 0 0 0 7 8 52572
+4 0 0 0 4 4 20598
+5 0 0 0 2 2 15418
+6 0 0 0 5 7 23294
+7 17 17 278300 5 7 28474
+8 0 0 0 8 8 35249
+9 8 9 125761 7 7 96680
+10 6 28 175690 5 5 15418
+11 7 30 304084 5 5 5179
+12 18 52 327833 3 3 15418
+13 7 30 304112 4 4 30836
+14 0 0 0 8 8 15418
+15 6 29 288694 13 15 41181
+16 0 0 0 6 7 32917
+17 0 0 0 8 9 45771
+18 0 0 0 5 6 56279
+19 2 2 30836 4 4 36015
+20 1 1 15418 9 9 46254
+21 1 1 15418 5 6 37491
+22 1 10 90479 9 14 158526
+23 7 21 215839 4 4 15418
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+mx 38 140 1111719
+ip 21 44 536158
+com 20 44 493751
+net 3 3 46254
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 96 792292 20101130150410 0
+slurp 5 65872 20101124152653 0
+surveybot 1 15418 20101120103445 0
+netcraft 1 0 20101128072940 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 8 24912 0 0
+html 73 1080004 0 0
+js 9 151872 0 0
+jpg 92 871850 0 0
+htm 9 19860 0 0
+gif 31 15756 0 0
+swf 9 23628 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 31
+winxp 83
+winlong 29
+winnt 75
+Unknown 13
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 8
+msie8.0 89
+firefox3.6.12 80
+mozilla 9
+msie5.5 15
+firefox3.5.8 2
+Unknown 4
+safari 31
+firefox3.6.6 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+- 20101113201702
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20101117090108
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20101113201702
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 36 37
+From1 0 0
+From2 0 0
+From3 1 1
+From4 45 193
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://by139w.bay139.mail.live.com/mail/InboxLight.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 49 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/wyzirjisd.html 1 -
+/robots.txt 47 -
+/no-text4709990402860230257 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+dsl-187-152-85-121-dyn.prod-infinitum.com.mx 38 140 1111719 20101110134559
+92.42.124.27 15 15 247464 20101112072624
+copilot.thunderstone.com 8 9 125761 20101117090108
+66-214-245-110.dhcp.gldl.ca.charter.com 8 31 306318 20101110233323
+189.216.63.251 6 29 288694 20101110150218
+ofdp-3.phishmongers.com 4 4 61672 20101113201702
+ip-64-202-161-41.secureserver.net 2 2 30836 20101119074925
+hosting.rentaserv.net 1 1 15418 20101126024449
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20101110 52 200 1706731 4
+20101111 2 2 30836 2
+20101112 16 16 262882 2
+20101113 1 1 15418 1
+20101117 8 9 125761 1
+20101119 2 2 30836 1
+20101126 1 1 15418 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+0s-30s 8
+30s-2mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 23 339691 12 7
+/contact.html 10 193426 0 3
+/certified-translations.html 9 138970 0 0
+/simultaneous-and-consecutive-interpreting.html 8 124948 0 1
+/clientele.html 8 123132 0 0
+/costs.html 8 123724 0 0
+/contact01.html 3 15394 0 0
+/recommend.htm 3 6618 0 1
+/recommend6.htm 2 4414 0 0
+/contact4.html 1 5179 0 0
+/recommend2.htm 1 2207 0 0
+/contact6.html 1 5180 0 0
+/contact3.html 1 5180 0 0
+/recommend3.htm 1 2207 0 0
+/recommend4.htm 1 2207 0 0
+/recommend7.htm 1 2207 0 0
+/contact2.html 1 5180 0 0
+END_SIDER

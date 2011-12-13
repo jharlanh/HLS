@@ -1,0 +1,106 @@
+<html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Horbach</title>
+<script language="javascript">
+<!--
+
+function reset() {
+document.tellafriend.name.value="";
+document.tellafriend.email.value="";
+document.tellafriend.friendmail1.value="";
+document.tellafriend.friendmail2.value="";
+document.tellafriend.friendmail3.value="";
+}
+
+function validate() {
+
+
+if (document.tellafriend.friendmail1.value.length==0) {
+alert("please enter your friend's email address");
+return false;
+}
+
+if (document.tellafriend.email.value.length==0) {
+alert("please enter your email address");
+return false;
+}
+if (document.tellafriend.name.value.length==0) {
+alert("please enter your name");
+return false;
+}
+
+document.tellafriend.submit()
+return true;
+}
+
+//-->
+</script>
+<link href="e-stilos-hls.css" rel="stylesheet" type="text/css">
+</head>
+<body onLoad="reset()"> 
+<center>
+</center>
+<table width="450" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff"> 
+<tr valign="top"> 
+<td valign="middle" align="center"> 
+<p><br>
+  Please complete the form to send our page to a friend.</p> 
+<form name="tellafriend" action="tellafriend2.php" method="post" onSubmit="return checkfields()"> 
+  <div align="center">
+<center>
+<table border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td> <p>Your Name:</p></td>
+<td>
+<input size="30" name="name" maxlength="45">
+</td>
+</tr>
+<tr>
+<td><p>Your Email:</p></td>
+<td>
+<input size="30" name="email" maxlength="45">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p align="center">Please enter the email address of your friend:</td>
+</tr>
+<tr>
+<td><p>Email 1:</p></td>
+<td>
+<input size="30" name="friendmail1" maxlength="45">
+</td>
+</tr>
+<tr>
+<td><p>Email 2:</p></td>
+<td>
+<input size="30" name="friendmail2" maxlength="45">
+</td>
+</tr>
+<tr>
+<td><p>Email 3:</p></td>
+<td>
+<input size="30" name="friendmail3" maxlength="45">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p align="center">The mail that you send includes your name and email address.<br>
+<input onClick="validate();" type="button" value="Enviar">
+
+</td>
+</tr>
+</table>
+</center>
+</div>
+</form>
+</td>
+</tr> 
+<tr valign="top"> 
+<td valign="middle" align="center">&nbsp; 
+</td>
+</tr> 
+</table>
+</body>
+</html> 

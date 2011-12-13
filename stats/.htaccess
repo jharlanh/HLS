@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Web Stats"
+AuthShadow on
+Require group "horbach-translation-service.com"

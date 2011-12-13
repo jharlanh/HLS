@@ -1,0 +1,860 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-08 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2533                
+POS_VISITOR 22265               
+POS_DAY 25135               
+POS_DOMAIN 3248                
+POS_LOGIN 3556                
+POS_ROBOT 3711                
+POS_WORMS 3987                
+POS_EMAILSENDER 4118                
+POS_EMAILRECEIVER 4261                
+POS_SESSION 25862               
+POS_SIDER 26040               
+POS_FILETYPES 4396                
+POS_OS 4606                
+POS_BROWSER 4706                
+POS_SCREENSIZE 4895                
+POS_UNKNOWNREFERER 4969                
+POS_UNKNOWNREFERERBROWSER 5275                
+POS_ORIGIN 5440                
+POS_SEREFERRALS 5576                
+POS_PAGEREFS 5731                
+POS_SEARCHWORDS 5925                
+POS_KEYWORDS 6241                
+POS_MISC 2197                
+POS_ERRORS 6434                
+POS_CLUSTER 3412                
+POS_SIDER_404 6531                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110901005559 19715 4968887 42059739089
+FirstTime 0
+LastTime 20110831193531
+LastUpdate 20110901072127 14 0 13 0 0
+TotalVisits 76                  
+TotalUnique 41                  
+MonthHostsKnown 32                  
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 5 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 28 447822 21 23 32572
+1 5 21 412575 19 22 133210
+2 2 2 17650 14 15 80284
+3 3 3 33756 48 48 19766
+4 4 6 111678 86 88 75831
+5 6 17 213571 33 34 100257
+6 1 1 17650 39 39 19948
+7 1 1 0 14 16 16595
+8 6 7 85689 30 30 0
+9 9 18 225210 14 14 0
+10 4 4 69056 243 243 17650
+11 2 9 79004 16 18 48124
+12 3 3 46416 12 12 17650
+13 5 23 274925 16 17 67452
+14 1 8 62898 9 9 0
+15 9 67 1023098 9 15 0
+16 2 28 341024 15 15 0
+17 4 11 291720 120 123 118825
+18 9 27 416174 52 56 0
+19 13 17 267183 116 117 63254
+20 3 7 189600 12 13 5368
+21 0 0 0 13 13 83805
+22 11 31 550322 14 14 16499
+23 6 9 229916 11 11 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+com 88 185 3045556
+ip 17 77 1017049
+mx 6 50 805727
+net 6 20 328148
+info 3 3 52950
+de 1 13 157507
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 40 351026 20110831041251 0
+baiduspider 24 247052 20110831111718 0
+slurp 17 197949 20110826020028 0
+surveybot 3 52950 20110827055733 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 2 39504 0 0
+css 21 112728 0 0
+png 9 52003 0 0
+html 119 1797804 0 0
+js 19 412224 0 0
+jpg 107 2315565 0 0
+jpeg 12 523388 0 0
+gif 40 44604 0 0
+swf 19 109117 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 92
+winlong 3
+winxp 74
+win2003 16
+winnt 63
+Unknown 100
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+mozilla 21
+firefox3.5.8 2
+msie7.0 60
+firefox5.0.1 1
+firefox6.0 27
+firefox4.0 13
+msie9.0 50
+Unknown 79
+firefox3.0.8 3
+safari 91
+netscape 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+- 20110826041921
+Mozilla/5.0_(compatible;_IPTCBOT; 20110827143210
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110827072733
+AdsBot-Google_(_http://www.google.com/adsbot.html) 20110831193528
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+- 20110826041921
+AdsBot-Google_(_http://www.google.com/adsbot.html) 20110831193528
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 104 191
+From1 1 1
+From2 6 7
+From3 3 3
+From4 7 146
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 6 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://werbung-public-relations.18x24.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+horbach+mexico 1
+citi+bank 1
+www.horbach-translation-service.com+translations 1
+http+//www.horbach-translation-service.com/ 1
+www.horbach-translation-service.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+www.horbach-translation-service.com 2
+citi 1
+bank 1
+mexico 1
+http 1
+translations 1
+horbach 1
+//www.horbach-translation-service.com/ 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 1 68113
+404 920 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 482
+//phpMyAdmin-2.6.1-pl2/ 1 -
+/rockford-restaurants 1 -
+/tickets-ottawa 3 -
+//phpMyAdmin-3.0.1.1/ 1 -
+/prestige-otg 1 -
+//mysql.bck/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 4 -
+/mcnabb-football 1 -
+//nildbnil/scripts/setup.php 1 -
+/eskmo-album-cover 1 -
+//adminsql/scripts/setup.php 1 -
+/hazara-news 2 -
+//phpMyAdmin-2.11.9.5/scripts/setup.php 2 -
+//_pma/scripts/setup.php 3 -
+/traditional-tattoo-wiki 4 -
+/donsol-philippines 5 -
+//phpMyAdmin-2.11.9.4/scripts/setup.php 1 -
+//db_backup/scripts/setup.php 1 -
+//mydb/scripts/setup.php 3 -
+//wbsadmin/html/scripts/setup.php 1 -
+//!mysql/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 2 -
+//phpadmin2011/scripts/setup.php 1 -
+//sqladmin_old/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2.2-all-languages/scripts/setup.php 2 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 2 -
+//phpmyadmin2/ 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 2 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 2 -
+/indian-videos 3 -
+/jakne-2010 3 -
+//phpmanager/scripts/setup.php 4 -
+/marine-biomes 1 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 2 -
+//PMA/scripts/setup.php 1 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.0/ 1 -
+/randall-carroll 1 -
+//old/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 2 -
+//pmy/phpMyAdmin-2.10.0.2-english/scripts/setup.php 1 -
+//web/phpMyAdmin/scripts/setup.php 2 -
+//phpmy-admin/ 1 -
+//admin/my/scripts/setup.php 3 -
+/pictures-strasbourg 1 -
+/frick-photography 1 -
+//phpmyadmin1/scripts/setup.php 6 -
+//admn/scripts/setup.php 5 -
+//phpMyAdmin-2.5.4/ 1 -
+/images/bullet-1.gif 12 http://horbach-translation-service.com/translations.html
+//webdb/scripts/setup.php 4 -
+/michaels-photography-naperville 1 -
+//admin/mysqladmin/scripts/setup.php 1 -
+//admm/scripts/setup.php 5 -
+//phpMyAdmin-2.5.5-rc2/ 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 2 -
+//_php/scripts/setup.php 2 -
+/pilule-anti 1 -
+//My-php/scripts/setup.php 3 -
+/salk-vaccine 1 -
+//phpMyAdmin-2.11.5.1-all-languages/scripts/setup.php 1 -
+//_admin/scripts/setup.php 3 -
+//aadm/pma/scripts/setup.php 1 -
+//_myadmin/scripts/setup.php 3 -
+//_bon_dbadmin/scripts/setup.php 3 -
+/insulin-receptor-signaling 1 -
+//phpMyAdmin-2.11.3.0/ 1 -
+//phpMyAdmin/ 2 -
+//admdb947/scripts/setup.php 1 -
+/marinella-facebook 2 -
+//phpmyadminnemo/scripts/setup.php 1 -
+/pictures-williams-syndrome 1 -
+//phpMyAdmin-2.11.4.0/ 1 -
+//webadmin/scripts/setup.php 3 -
+//pmadm/scripts/setup.php 2 -
+//phpMyAdmin-2.5.1/scripts/setup.php 2 -
+//PmA/scripts/setup.php 1 -
+//pma2006/ 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 2 -
+//databaseadmin/scripts/setup.php 5 -
+/photo-for-dummies 1 -
+//pma211/scripts/setup.php 1 -
+/mathias-fredriksson-photography 2 -
+//phpMyAdmin-2.6.2-beta1/ 1 -
+//portable-phpmyadmin/wp-pma-mod/scripts/setup.php 1 -
+/weird-tales 1 -
+//phpMyAdminpcs41/scripts/setup.php 1 -
+//admin/pma/scripts/setup.php 2 -
+//phpmy/my/scripts/setup.php 1 -
+//Myphp/scripts/setup.php 3 -
+//pma2/scripts/setup.php 1 -
+//admsql1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 2 -
+//phpMyAdmin-2.6.0-pl1/ 1 -
+/sprint-stores 2 -
+//pma2005/scripts/setup.php 2 -
+//adminn/scripts/setup.php 1 -
+//.bash/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6/ 1 -
+/airblown-christmas 1 -
+//etetetet.old/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 2 -
+//php2011/scripts/setup.php 1 -
+//phpMyAdmin2011/scripts/setup.php 2 -
+//db1/scripts/setup.php 1 -
+/schindlers-list 3 -
+//phpMyAdmin-3.1.1.0/ 1 -
+/roger-federer-wallpaper 2 -
+//phpma1/scripts/setup.php 1 -
+//phpadmin211/scripts/setup.php 1 -
+//cb/scripts/setup.php 1 -
+//MySQL/scripts/setup.php 1 -
+//phpMyAdmin-3.4.3.1/ 1 -
+//cbadmin/scripts/setup.php 1 -
+//myadmin_a/scripts/setup.php 1 -
+//admin/myadmin/scripts/setup.php 1 -
+//admdb/scripts/setup.php 1 -
+/fsn-sports 1 -
+//Admin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 2 -
+/ufc-119-wiki 1 -
+/strength-training-chart 1 -
+//phpMyAdmin-3.0.1.1-all-languages/scripts/setup.php 1 -
+//php-myadmin/ 1 -
+/beeper-king 4 -
+/index 3 http://www.servicios-de-traduccion.com/images/top-logo.swf
+//phpMyAdmin-2.11.11.3/scripts/setup.php 1 -
+/make-movie-pictures 1 -
+/marine-camouflage-clothing 1 -
+//phpMyAdmin-2.5.5-rc1/ 1 -
+//webdb/ 1 -
+//phpMyAdmin-2.6.2-rc1/ 1 -
+//pma3/scripts/setup.php 1 -
+//xx_phpmyadmin/scripts/setup.php 1 -
+/robots.txt 119 -
+//websql/ 2 -
+//php-myadmin/scripts/setup.php 4 -
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 2 -
+//phpmyadmin/2.11.10/htdocs/scripts/setup.php 1 -
+//phpMyAdmin-2.8.2.4/ 1 -
+//bbs/phpMyAdmin/scripts/setup.php 1 -
+/lehenga-choli-bollywood 4 -
+//db4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 2 -
+//phpMyAdmin-2.11.9.0/ 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 2 -
+//phpMyAdmin-2.10.0.2/ 1 -
+//webmail2/scripts/setup.php 1 -
+//phpmyadmin/2.11.9.4/htdocs/scripts/setup.php 1 -
+//php-my-admin/scripts/setup.php 4 -
+//sql/scripts/setup.php 2 -
+//_dbadmin/scripts/setup.php 3 -
+//phpMyAdmin-2.11.5.0/ 1 -
+//pa/scripts/setup.php 1 -
+//phpmyadmin_old/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.3/ 1 -
+//pma2005/ 1 -
+//php2/scripts/setup.php 3 -
+//db3/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 2 -
+//pmy/scripts/setup.php 2 -
+//dbadm/phpMyAdmin/scripts/setup.php 1 -
+//phpmyadmin/phpMyAdmin-2.11.5-english/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2.2/ 1 -
+//phadmin/scripts/setup.php 1 -
+/altair-lighting 1 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 2 -
+//phpMyAdmin-2.2.3/scripts/setup.php 2 -
+//admin/phpAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc1/ 1 -
+//admin/scripts/setup.php 2 -
+//_phpMyAdmin/scripts/setup.php 2 -
+//phpMyAdmin-2.11.5.1/ 1 -
+//phpMyAdmin-2.6.1/ 1 -
+//pma2008/ 1 -
+//p/m/a/ 1 -
+//phpMyAdminpcs81/scripts/setup.php 1 -
+//phpmy-admin/scripts/setup.php 3 -
+//p/m/a/scripts/setup.php 2 -
+//phpmyadminx/scripts/setup.php 1 -
+//p/scripts/setup.php 2 -
+//phpmysql/scripts/setup.php 1 -
+//phpMyAdmin_2.11.10/scripts/setup.php 1 -
+//dvphp/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/ 1 -
+//phpas/scripts/setup.php 3 -
+/laarni-lozada 1 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 2 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 2 -
+//phpMyAdmin-2.5.7/scripts/setup.php 2 -
+//phpmyadmin29/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0/scripts/setup.php 2 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 2 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 2 -
+//myadmin/MyAdmin/scripts/setup.php 1 -
+//dbadmin211/scripts/setup.php 1 -
+/safari-hunting 1 -
+//mysql2011/scripts/setup.php 1 -
+//phpMyAdmin-2.5.4/scripts/setup.php 2 -
+//myadmin2/scripts/setup.php 1 -
+//myphp/scripts/setup.php 3 -
+//2010/phpMyAdmin/scripts/setup.php 1 -
+//PMYADM/phpMyAdmin-2.10.0.2-english/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 2 -
+//phpMyAdmin-2.11.2.2/scripts/setup.php 1 -
+/tattoos-rooster 1 -
+//pmaold/scripts/setup.php 3 -
+//phpmyadmin32/scripts/setup.php 1 -
+/louisiana-shark-attack 1 -
+//phpMyAdmin-2.11.7.1-all-languages-utf-8-only/scripts/setup.php 1 -
+//phpmyadm/scripts/setup.php 1 -
+//my/scripts/setup.php 1 -
+/cohesion-gyroscope 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 2 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 2 -
+//pma_ai/scripts/setup.php 1 -
+//mysql211/scripts/setup.php 1 -
+/university-games 1 -
+//sgl/scripts/setup.php 1 -
+//.phpadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc2/ 1 -
+//myad/scripts/setup.php 2 -
+/zojirushi-thermos 2 -
+//phpMyAdmin-2.11.11.3-english/scripts/setup.php 1 -
+//sql211/scripts/setup.php 1 -
+//php-my-admin/ 1 -
+/tesha-nicholson 1 -
+//web/ 1 -
+/norman-geisler 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 2 -
+//phpMyAdmin-2.9.0.3/scripts/setup.php 1 -
+//phpMyAdmin-2.9.0.2/ 1 -
+//phpMyAdmin-2.8.2.3/ 1 -
+//phpmyadmin-bkp/scripts/setup.php 1 -
+//pma2011/scripts/setup.php 1 -
+//mysql_administrator/scripts/setup.php 3 -
+//phpmyadmin_old/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5/scripts/setup.php 1 -
+/fashion-accessories 1 -
+//phpmyadmin291/scripts/setup.php 1 -
+//php211/scripts/setup.php 1 -
+//phpMyAdmin-2.8.2.2/ 1 -
+//phpmyadmin/2.11.9.6/htdocs/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 2 -
+/khichdi-movie-actress 1 -
+//phpMyAdmin-2.9.1/ 1 -
+//phpMyAdmin-2.9.0/scripts/setup.php 2 -
+/marcel-chevalier 1 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 2 -
+//phpMyAdmin-3.1.0.0/ 1 -
+/hsm3-prom 1 -
+//phpMyAdmin-2.11.9.4/ 1 -
+//phpMyAdmin-1/scripts/setup.php 1 -
+/mary-simms-facebook 1 -
+//_phpmyadmin_/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 2 -
+//phpMyAdmin-3.1.2.0/ 1 -
+//phpMyAdmin-2/scripts/setup.php 3 -
+//phpMyAdminpcs/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/ 1 -
+//typo3/phpmyadmin/ 1 -
+//phpMyAdmin-2.11.2.0/ 1 -
+//phpMyAdmin-2.6.3-rc1/ 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 2 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 2 -
+//_db/scripts/setup.php 2 -
+//phpMyAdmin-2.2.6/scripts/setup.php 2 -
+//myAdmin/scripts/setup.php 3 -
+//_db_man_aa/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 2 -
+//_phpmyadmin/_v2.8/scripts/setup.php 1 -
+/hyoyeon-snsd-oh 1 -
+//phpMyAdmin-2.8.0.3/ 1 -
+//phpmyadmin/myadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.1/ 1 -
+//phpMyAdmin-2.5.1/ 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 2 -
+//_phpadmin/scripts/setup.php 2 -
+//phpMyAdmin393/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1.2/ 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 2 -
+//admn/ 1 -
+//.phpMyAdmin/scripts/setup.php 1 -
+//mysql2/scripts/setup.php 3 -
+//phpMyAdmin-2.11.6-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 2 -
+//phpMyAdmin-2.5.5/ 1 -
+//admin/pmadm/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 2 -
+/wallpaper-unicornio 1 -
+/lettuce-wrap 1 -
+//phpmyadmin/2.11.9.5/htdocs/scripts/setup.php 1 -
+/shamrock-images 2 -
+//mysql-admin/scripts/setup.php 2 -
+//admsql/scripts/setup.php 1 -
+/mendota-ca 1 -
+//phpMyAdmin-2.11.0.0/ 1 -
+//dbadmin2011/scripts/setup.php 1 -
+//db2/scripts/setup.php 1 -
+//phpMyAdmin-2.11.2.1/ 1 -
+/indian-mathematicians 1 -
+//phpMyAdmin-2.8.1/ 1 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 2 -
+/miata-drift 1 -
+/northwest-passage-movie 1 -
+//pma/scripts/setup.php 6 -
+/velpeau-sling 1 -
+//phpMyAdmin-2.11.7.0/ 1 -
+/chris-evert 2 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 2 -
+//phpMyAdmin-2.6.1-rc2/ 1 -
+//phpmyadmin/scripts/setup.php 9 -
+//phpMyAdmin-2.5.7/ 1 -
+//phpMyAdmin-2.8.2/scripts/setup.php 2 -
+//ladminadminl/scripts/setup.php 1 -
+//phpMyAdmin-3.4.3.1-all-languages/ 1 -
+//pma/ 1 -
+//php1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.4/ 1 -
+//phpMyAdmin-2.10.0.0/ 1 -
+//phpmyadmin-ramy/scripts/setup.php 1 -
+/maui-attractions 1 -
+/shelly-long 2 -
+//phpMyAdmin-2.11.9.2/ 1 -
+//phpMyA/scripts/setup.php 2 -
+/quaking-aspen-tree 3 -
+/seminole-indians-food 1 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 4 -
+//mysqladmin/scripts/setup.php 8 -
+//pma_tpfocus/scripts/setup.php 1 -
+//phpMyAdmin-2.11.5-english/scripts/setup.php 1 -
+//pma1/scripts/setup.php 1 -
+/gotico-furniture 1 -
+//cbadmin2/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 5 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 2 -
+//phpM/scripts/setup.php 1 -
+//_myphp/scripts/setup.php 2 -
+//phpMyAdmin-2.7.0-pl2/ 1 -
+//phpmyadmin2011/scripts/setup.php 1 -
+//phpAdmin/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 5 -
+//db211/scripts/setup.php 1 -
+//pma_rs/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 2 -
+//_v2.8/scripts/setup.php 1 -
+/present-finder 2 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 3 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 2 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 2 -
+//_phpmyadmin_db4/scripts/setup.php 1 -
+//sqladm/scripts/setup.php 3 -
+//phpMyAdmin-2.6.4/scripts/setup.php 2 -
+//phpmyadmin/ 1 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 2 -
+/snes-rom 1 -
+//mysqlmanager/scripts/setup.php 2 -
+/tamiya-clod-buster 1 -
+//phpma/scripts/setup.php 1 -
+//scripts/setup.php 7 -
+//phpMyAdmin-3.0.0-rc2/scripts/setup.php 1 -
+/user-interface 2 -
+/up-net 1 -
+//phpMyAdmin-2.11.9.3/scripts/setup.php 1 -
+//phpMyAdmin-2.11.10.1/scripts/setup.php 1 -
+/twilight-latest-pictures 2 -
+//.dbadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.10.3/scripts/setup.php 1 -
+//phpma12345/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc1/ 1 -
+//web/phpMyAdmin/ 1 -
+//phpMyAdmin-2.8.2/ 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 2 -
+//phpMyAdmin-2.11.4/scripts/setup.php 1 -
+//phpmya/scripts/setup.php 3 -
+/sony-pictures-japan 1 -
+//phpMyAdmin-2.6.0-rc1/ 1 -
+//phpMyAdmin-2.10.2.0/ 1 -
+/brighton-homes 2 -
+/simbol-dioda 2 -
+/jdm-eg9 2 -
+//phpadmin/scripts/setup.php 6 -
+//2011/phpMyAdmin/scripts/setup.php 1 -
+//webadmin/ 1 -
+//.pma/scripts/setup.php 1 -
+//dba/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+//prog/scripts/setup.php 1 -
+/e-f-lavender 1 -
+//phpmysql/sql/scripts/setup.php 1 -
+//xampp/phpmyadmin/ 1 -
+//.phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0.2/scripts/setup.php 1 -
+//phpmyadmin211/scripts/setup.php 1 -
+/tim-thornton-photography 2 -
+//PMA2005/scripts/setup.php 2 -
+//dcgadmin/scripts/setup.php 1 -
+//admin/phpmyadmin/ 1 -
+//./scripts/setup.php 2 -
+//my-php/scripts/setup.php 3 -
+//phpMyAdmin-2.8.0/ 1 -
+//wp-phpmyadmin/phpmyadmin/scripts/setup.php 2 -
+//admm/ 1 -
+//_qsql/scripts/setup.php 1 -
+//phpMyAdmin-3.0.2.0/ 1 -
+//phpMyAdmin-2.6.0-beta1/ 1 -
+/vovtzbjri.html 1 -
+/wwe-ivory 1 -
+//phpmyadmin123/scripts/setup.php 1 -
+//dbAdmin/scripts/setup.php 1 -
+//web/scripts/setup.php 2 -
+//sqladm.old/scripts/setup.php 2 -
+//_sql/scripts/setup.php 4 -
+//PMA2005/ 1 -
+/eelyn-kok 4 -
+//phpMyAdmin-2.6.3/ 1 -
+/virginia-tech-campus 1 -
+//backup/scripts/setup.php 1 -
+//sqlmanager/scripts/setup.php 2 -
+//mysql/ 1 -
+//___pma/scripts/setup.php 1 -
+//websql/scripts/setup.php 6 -
+//phpmyadmin2/scripts/setup.php 6 -
+/resizer-photo 2 -
+//dbc/scripts/setup.php 1 -
+//phpmyadmin_2.10/scripts/setup.php 3 -
+//examples/scripts/setup.php 1 -
+//~phpmyadmin21152/scripts/setup.php 1 -
+//pmabd/scripts/setup.php 2 -
+/localhost-facebook 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 2 -
+//xampp/phpmyadmin/scripts/setup.php 2 -
+/somalia-pirates-pictures 1 -
+//admin--/mysqladmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.9.5-all-languages/scripts/setup.php 1 -
+//phpad/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/ 1 -
+//phpMyAdmin.old/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl1/ 1 -
+//_phpmyadmin/scripts/setup.php 2 -
+//mysql-admin/ 1 -
+/muieblackcat 6 -
+//phpMyAdmin-2.8.0-rc2/ 1 -
+//_phpmyadmin_db3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 2 -
+/fs-pro 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 2 -
+//db/scripts/setup.php 5 -
+//Files/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl1/ 1 -
+//html/scripts/setup.php 1 -
+//phpMyAdmin211/scripts/setup.php 2 -
+//phpMyAdmin-2.6.3/scripts/setup.php 4 -
+//PMYADM/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-pl1/ 1 -
+//sql2011/scripts/setup.php 1 -
+/adrenal-gland-histology 1 -
+//db2011/scripts/setup.php 1 -
+/sacred-seasons 3 -
+//madm/scripts/setup.php 1 -
+/phillip-garrido-address 2 -
+//admin/phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.11.7.1/ 1 -
+//phpMyAdmin-2.5.6/scripts/setup.php 2 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 2 -
+//typo3/phpmyadmin/scripts/setup.php 2 -
+/boli-steroid 3 -
+//admin/ 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 2 -
+/tax-refunds 4 -
+//phpMyAdmin-2.11.5.2/ 1 -
+//myadmin/ 1 -
+//phpMyAdmin/scripts/setup.php 9 -
+//mysql/scripts/setup.php 6 -
+/chicago-tornado 3 -
+//phpMyAdmin-2.11.1.0/ 1 -
+//phpMyAdmin-2.6.0-alpha2/ 1 -
+//pma_mydb/scripts/setup.php 2 -
+//phpMyAdmin-2.11.6.0/ 1 -
+/tim-hasselbeck-wife 1 -
+//phpMyAdmin-2.5.6-rc2/ 1 -
+/wallpaper-change-virus 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+rate-limited-proxy-209-85-238-250.google.com 28 66 1082816 20110824222856
+rate-limited-proxy-209-85-238-186.google.com 20 56 867554 20110809232808
+rate-limited-proxy-209-85-238-246.google.com 14 21 535934 20110831193531
+38.100.21.23 7 8 130664 20110819194130
+dsl-187-152-83-247-dyn.prod-infinitum.com.mx 6 50 805727 20110830150619
+zebra945.startdedicated.com 3 3 52950 20110808222703
+74-61-98-238.los.clearwire-wmx.net 3 17 280800 20110806180608
+s15525901.onlinehome-server.info 3 3 52950 20110827143210
+173.226.228.231 2 2 35300 20110821183148
+157.55.17.145 2 2 0 20110827072733
+157.55.16.57 1 1 19773 20110815191642
+msnbot-65-52-108-142.search.msn.com 1 1 0 20110816093208
+74.125.126.91 1 4 23453 20110806055019
+72.14.202.86 0 2 22223 
+74.125.126.89 0 1 47991 
+209.85.224.98 0 1 10286 
+72.14.202.80 0 1 6185 
+72.14.202.82 0 1 10286 
+72.14.202.81 0 1 5368 
+74.125.44.82 0 1 21696 
+not-assigned.privatedns.com 1 1 17650 20110824104957
+74.125.126.86 0 1 2847 
+ip-64-202-161-47.secureserver.net 1 1 17650 20110819015324
+msnbot-65-52-110-32.search.msn.com 1 1 0 20110812021044
+msnbot-65-52-108-149.search.msn.com 1 1 0 20110806052437
+74.125.152.80 0 3 82893 
+ip-64-202-161-41.secureserver.net 1 1 12048 20110819015328
+209.85.224.87 0 1 527 
+msnbot-65-52-110-55.search.msn.com 1 1 0 20110804203945
+msnbot-207-46-199-12.search.msn.com 1 4 49472 20110809173209
+msnbot-207-46-199-11.search.msn.com 1 4 49234 20110820190106
+74.125.126.90 0 1 5368 
+74.125.126.88 0 3 24404 
+74.125.152.87 0 1 305 
+msnbot-65-52-104-19.search.msn.com 1 1 16878 20110818170652
+msnbot-157-55-112-219.search.msn.com 1 4 49685 20110817184045
+74.125.152.85 0 1 2847 
+209.85.224.84 0 1 5743 
+pool-173-51-255-169.lsanca.fios.verizon.net 1 1 17650 20110823151737
+64.233.182.84 1 2 18973 20110827151218
+msnbot-207-46-204-190.search.msn.com 1 1 0 20110821051927
+msnbot-207-46-199-48.search.msn.com 1 1 0 20110816044414
+209.85.224.92 0 2 4170 
+msnbot-65-52-109-62.search.msn.com 1 1 17834 20110809230141
+port-87-193-250-11.static.qsc.de 1 13 157507 20110811015151
+msnbot-207-46-199-51.search.msn.com 2 2 0 20110825162237
+209.85.224.99 0 1 47816 
+msnbot-207-46-199-50.search.msn.com 1 1 0 20110811095705
+92.240.46.230 1 27 341024 20110827163448
+msnbot-207-46-195-228.search.msn.com 1 1 0 20110806032311
+209.85.224.82 0 1 1385 
+msnbot-207-46-199-24.search.msn.com 1 4 50641 20110825151606
+157.55.18.25 1 1 16878 20110826041921
+209.85.224.85 0 1 305 
+64.233.172.20 1 3 70237 20110817132009
+74.125.126.84 0 1 47816 
+msnbot-65-52-110-84.search.msn.com 1 1 0 20110806082543
+msnbot-207-46-204-230.search.msn.com 1 1 16878 20110804235336
+rate-limited-proxy-209-85-238-164.google.com 2 6 225370 20110810225225
+li362-22.members.linode.com 1 1 12660 20110808124018
+74.125.126.82 0 1 10286 
+msnbot-65-52-108-145.search.msn.com 1 1 0 20110808232408
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20110801 2 9 79004 1
+20110802 2 9 79004 1
+20110803 2 6 225370 1
+20110804 3 5 111678 3
+20110805 3 5 128556 2
+20110806 9 34 476721 6
+20110807 2 2 33756 1
+20110808 8 8 117016 4
+20110809 5 22 209208 4
+20110810 2 6 225370 1
+20110811 4 18 269957 3
+20110812 1 1 0 1
+20110813 2 2 33756 1
+20110814 3 3 33756 2
+20110815 3 3 53529 2
+20110816 2 2 0 2
+20110817 6 34 371402 5
+20110818 3 7 242248 2
+20110819 12 15 288918 5
+20110820 3 8 161684 3
+20110821 5 5 69056 4
+20110822 3 3 51406 2
+20110823 3 3 51406 2
+20110824 5 19 177202 2
+20110825 4 10 228195 3
+20110826 1 1 16878 1
+20110827 7 44 541510 6
+20110828 2 2 33756 1
+20110829 4 8 223356 2
+20110830 8 52 839483 2
+20110831 2 2 33756 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+30s-2mn 3
+2mn-5mn 2
+0s-30s 69
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/translations.html 62 995802 33 33
+/ 34 536558 25 23
+/simultaneous-and-consecutive-interpreting.html 5 49491 3 3
+/price-and-fees.html 5 49281 3 3
+/clientele.html 4 61389 2 4
+//#phpmyadmin_2.9.11/ 3 52950 3 3
+/contact.php 2 39504 1 1
+/traduccion-ingles.html 2 35668 2 2
+/interpretacion-simultanea.html 2 16665 2 2
+/certified-translations.html 1 0 1 1
+/contact.html 1 0 1 1
+END_SIDER

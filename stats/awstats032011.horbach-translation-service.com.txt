@@ -1,0 +1,404 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2011-03 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2544                
+POS_VISITOR 7233                
+POS_DAY 10241               
+POS_DOMAIN 3302                
+POS_LOGIN 3627                
+POS_ROBOT 3782                
+POS_WORMS 4087                
+POS_EMAILSENDER 4218                
+POS_EMAILRECEIVER 4361                
+POS_SESSION 10973               
+POS_SIDER 11180               
+POS_FILETYPES 4496                
+POS_OS 4736                
+POS_BROWSER 4853                
+POS_SCREENSIZE 5076                
+POS_UNKNOWNREFERER 5150                
+POS_UNKNOWNREFERERBROWSER 5547                
+POS_ORIGIN 5812                
+POS_SEREFERRALS 5953                
+POS_PAGEREFS 6108                
+POS_SEARCHWORDS 6547                
+POS_KEYWORDS 6722                
+POS_MISC 2207                
+POS_ERRORS 6806                
+POS_CLUSTER 3483                
+POS_SIDER_404 6924                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110401054314 5161 1243287 34639422263
+FirstTime 20110301030227
+LastTime 20110331205300
+LastUpdate 20110402040934 1 0 0 0 0
+TotalVisits 87                  
+TotalUnique 52                  
+MonthHostsKnown 38                  
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 23 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 61356 21 24 135662
+1 5 5 65304 10 17 136023
+2 2 2 27749 10 17 137095
+3 7 7 63807 21 26 178574
+4 6 6 25 6 6 5075
+5 6 6 60852 12 16 67098
+6 0 0 0 10 13 104188
+7 5 14 143603 17 24 175970
+8 23 82 384130 14 14 96131
+9 40 248 1483881 20 23 152268
+10 50 201 1002115 19 21 51669
+11 65 385 1550280 13 14 45913
+12 44 167 2106864 12 15 165109
+13 28 216 550625 10 10 45
+14 0 0 0 3 4 21840
+15 17 100 870287 6 6 17604
+16 29 177 466465 10 15 85995
+17 64 259 2741435 26 33 138175
+18 36 256 2302086 20 25 86700
+19 1 1 15412 6 8 92001
+20 12 23 93490 18 20 175728
+21 5 16 44544 39 39 194963
+22 8 9 73452 18 20 65030
+23 11 67 845963 15 18 71602
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+mx 226 1614 9554422
+com 112 276 2593174
+net 70 259 1692928
+ip 49 91 1063994
+lt 8 8 40
+info 2 2 32778
+be 1 1 16389
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 271 1662670 20110331184553 43
+slurp 51 451529 20110329071918 12
+unknown 2 10 20110323071536 2
+surveybot 2 32090 20110322063244 0
+netcraft 1 15412 20110328123137 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 138 218821 0 0
+png 108 212661 0 0
+htm 15 24270 0 0
+swf 105 227240 0 0
+php 104 886135 0 0
+html 349 3498510 0 0
+js 125 824448 0 0
+jpg 863 7616198 0 0
+jpeg 91 1222450 0 0
+gif 353 222992 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+winme 4
+macosx 461
+winxp 944
+win2003 10
+winnt 749
+win98 21
+Unknown 53
+linux 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie6.0 29
+msie8.0 1041
+mozilla 28
+netscape3.0 1
+msie7.0 13
+firefox3.5.8 2
+firefox4.0 62
+msie5.5 14
+firefox3.5.3 9
+Unknown 26
+safari 471
+firefox3.6.13 49
+firefox3.6.15 506
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/3.0 20110314012904
+Mozilla/5.0_(compatible;_AboutUsBot_Johnny5/2.0;__http://www.AboutUs.org/) 20110307174836
+Java/1.6.0_23 20110318124513
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20110328071515
+example/1.0 20110329094143
+MLBot_(www.metadatalabs.com/mlbot) 20110330172648
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Java/1.6.0_23 20110318124513
+example/1.0 20110329094143
+MLBot_(www.metadatalabs.com/mlbot) 20110330172648
+Gimmie60/5.0_(Windows;_U;_Windows_NT_5.1;_en-US;_rv:1.9.1.11) 20110319112026
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 240 241
+From1 0 0
+From2 2 3
+From3 16 16
+From4 210 1991
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://servicios-de-traduccion.com/images/top-logo.swf 6 6
+http://www.servicios-de-traduccion.com/images/top-logo.swf 4 4
+http://servicios-de-traduccion.com 2 2
+http://co120w.col120.mail.live.com/mail/InboxLight.aspx 2 2
+http://www.servicios-de-traduccion.com 1 1
+http://g7.in/3836.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+horbach+translations 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+translations 1
+horbach 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 0
+302 87 395
+206 11 237951
+400 1 401
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+dsl-187-152-88-239-dyn.prod-infinitum.com.mx 194 1397 8410052 20110325162359
+174-127-47-2.static-ip.telepacific.net 66 255 1633777 20110330180321
+66-214-245-110.dhcp.gldl.ca.charter.com 44 206 1885008 20110329233640
+dsl-189-180-0-65-dyn.prod-infinitum.com.mx 28 193 874408 20110325181125
+d2.3.be.static.xlhost.com 12 12 136447 20110318124513
+ec2-174-129-117-237.compute-1.amazonaws.com 10 10 0 20110331032312
+38.127.197.107 9 10 128663 20110331121809
+69.58.178.59 9 9 139545 20110323112012
+wls7.hosting.lt 8 8 40 20110307205323
+81.196.5.129 6 6 60852 20110324083709
+ec2-184-73-30-110.compute-1.amazonaws.com 2 2 32778 20110307174836
+static-208-80-194-62.as13448.com 1 1 15412 20110331204841
+msnbot-207-46-195-105.search.msn.com 2 2 31776 20110316210510
+blink.ivegotafang.com 1 1 15701 20110317031500
+94.63.246.10 2 2 10 20110306111301
+msnbot-207-46-13-101.search.msn.com 2 2 16389 20110306134230
+msnbot-207-46-204-180.search.msn.com 2 2 31599 20110315225447
+178.45.42.8 1 1 12696 20110306221256
+109.169.140.60 1 1 16389 20110307223600
+net66-219-58-45.static-customer.corenap.com 2 2 25536 20110330172648
+static-208-80-194-66.as13448.com 1 1 15412 20110331205300
+s15428676.onlinehome-server.info 2 2 32778 20110313173447
+msnbot-65-52-109-59.search.msn.com 1 1 15810 20110318000308
+ip-64-202-161-41.secureserver.net 2 2 27749 20110319021304
+109.169.238.231 2 2 32778 20110307033135
+msnbot-207-46-12-161.search.msn.com 1 3 42237 20110305203720
+msnbot-207-46-199-37.search.msn.com 2 2 31402 20110321184607
+201.106.9.151 2 13 161866 20110328173529
+195.54.163.122 1 1 16389 20110312092434
+msnbot-207-46-13-51.search.msn.com 2 2 21425 20110305081029
+net66-219-58-44.static-customer.corenap.com 1 1 12768 20110325133455
+msnbot-207-46-199-42.search.msn.com 2 2 15328 20110301030324
+94.63.246.4 6 6 30 20110309082119
+msnbot-65-52-110-17.search.msn.com 1 1 20352 20110323071610
+msnbot-207-46-13-43.search.msn.com 2 2 16389 20110311162936
+net66-219-58-42.static-customer.corenap.com 3 3 43592 20110329010150
+222.216.28.93 1 1 15412 20110329094143
+81.196.5.130 6 6 60852 20110324053934
+78-22-171-66.access.telenet.be 1 1 16389 20110314012904
+pool-108-0-177-241.lsanca.fios.verizon.net 2 2 31402 20110319112026
+dsl-189-250-240-70-dyn.prod-infinitum.com.mx 2 11 107839 20110303073618
+net66-219-58-39.static-customer.corenap.com 2 2 25536 20110318232223
+ec2-75-101-211-84.compute-1.amazonaws.com 5 5 25 20110309040429
+157.55.16.229 2 2 32778 20110305001502
+msnbot-207-46-195-233.search.msn.com 2 2 15412 20110328071515
+dsl-189-148-132-24-dyn.prod-infinitum.com.mx 2 13 162123 20110316101618
+186.32.67.45 1 31 385734 20110321182223
+net66-219-58-38.static-customer.corenap.com 1 1 12768 20110323223805
+msnbot-207-46-13-86.search.msn.com 2 2 32778 20110302151731
+msnbot-207-46-13-85.search.msn.com 2 2 20735 20110322013435
+net66-219-58-43.static-customer.corenap.com 2 2 29157 20110314103641
+msnbot-207-46-195-241.search.msn.com 2 2 31402 20110319124807
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20110301 9 29 273020 3
+20110302 36 247 739689 2
+20110303 2 11 107839 1
+20110304 1 1 0 1
+20110305 5 7 96440 3
+20110306 6 6 45484 4
+20110307 13 13 81985 4
+20110308 1 1 0 1
+20110309 16 27 170124 3
+20110311 3 3 16389 2
+20110312 2 2 29157 2
+20110313 1 1 16389 1
+20110314 4 4 45546 3
+20110315 90 642 3632542 3
+20110316 4 15 193899 2
+20110317 10 54 848896 3
+20110318 14 14 165025 3
+20110319 8 19 252676 4
+20110320 24 69 848949 1
+20110321 4 34 417136 3
+20110322 2 2 20735 1
+20110323 29 85 1296111 4
+20110324 109 601 4118061 9
+20110325 41 247 1108744 8
+20110326 2 13 0 1
+20110327 6 35 35764 3
+20110328 6 27 177278 3
+20110329 5 17 43592 3
+20110330 3 12 12768 2
+20110331 12 13 159487 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 5
+0s-30s 56
+30s-2mn 15
+15mn-30mn 1
+2mn-5mn 2
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/ 222 2165066 75 55
+/contact.php 44 846724 0 1
+/certified-translations.html 34 315627 4 2
+/crear_imagen.php 28 37875 0 2
+/simultaneous-and-consecutive-interpreting.html 27 300643 0 3
+/clientele.html 18 300062 2 4
+/price-and-fees.html 16 223410 1 2
+/contact.html 12 69216 0 4
+/process-contacto7.php 10 1210 0 0
+/thanks2.html 4 30436 1 1
+//newsletter/admin/index.php 3 15 0 3
+/traducciones-oficiales.html 1 16162 0 0
+//mailinglist/admin/index.php 2 10 0 0
+/traducciones-frances-espanol.html 1 17005 0 1
+/contact01.html 2 10354 0 0
+/indexhttp://www.horbach-translation-service.com/indexhttp://www.horbach-translation-service.com/index.htm 3 15 0 0
+//phplist/admin/index.php 3 15 3 0
+/costs.html 2 0 0 2
+//elists/admin/index.php 2 10 0 0
+/process-contacto.php 2 218 0 2
+//lista/admin/index.php 1 5 0 0
+/contact3.html 1 5178 0 0
+//webmail/ 1 5 1 0
+/recommend7.htm 3 6615 0 1
+/recommend.htm 4 8820 0 0
+/tellafriend.php 1 13 0 1
+/traducciones-espanol-aleman.html 1 17046 0 0
+/contact6.html 3 10418 0 0
+//list/admin/index.php 3 15 0 0
+/traduccion-ingles.html 1 16903 0 0
+/recommend6.htm 2 2205 0 0
+/recommend3.htm 2 4410 0 1
+/recommend4.htm 1 2205 0 0
+/thanks1.html 2 974 0 1
+//admin/index.php 2 10 0 0
+//lists/admin/index.php 3 15 0 0
+//mail/ 1 5 0 1
+END_SIDER
